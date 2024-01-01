@@ -10,7 +10,7 @@ const Header = () => {
       <nav>
         <ul className="flex">
           <li>
-            <Link className="ml-[45px]" to={"#"}>
+            <Link className="ml-[45px]" to={"/"}>
               Home
             </Link>
           </li>

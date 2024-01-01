@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+div img{
+    @apply w-[50%] m-auto 
+}
+#imgs{
+    border-top-left-radius: 700px;
+    border-bottom-left-radius: 700px;
+    border-top-right-radius: 700px;
+    border-bottom-right-radius: 700px;
+    display: flex;
+    align-items: center;
+}
