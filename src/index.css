@@ -2,9 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-div img{
-    @apply w-[50%] m-auto 
-}
+
 #imgs{
     border-top-left-radius: 700px;
     border-bottom-left-radius: 700px;

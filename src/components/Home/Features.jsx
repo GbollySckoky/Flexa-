@@ -43,7 +43,7 @@ const Features = () => {
                 </Link>
               </div>
               <div id="imgs" className=" bg-lightBlue h-[470px] rounded-full w-[500px] mx-auto ">
-              <img className="w-[390px]" src={img8} alt="" />
+              <img className="w-[390px] m-auto" src={img8} alt="" />
               </div>
             </div>
           </div>
@@ -79,7 +79,7 @@ const Features = () => {
                 </Link>
               </div>
               <div id="imgs" className=" bg-lightBlue h-[470px] rounded-full w-[500px] mx-auto ">
-              <img className="w-[240px]" src={rectangle} alt="" />
+              <img className="w-[240px] m-auto" src={rectangle} alt="" />
               </div>
             </div>
           </div>
@@ -115,7 +115,7 @@ const Features = () => {
                 </Link>
               </div>
               <div id="imgs" className=" bg-lightBlue h-[470px] rounded-full w-[500px] mx-auto ">
-              <img className="w-[340px]" src={image24} alt="" />
+              <img className="w-[340px] m-auto" src={image24} alt="" />
               </div>
             </div>
           </div>
