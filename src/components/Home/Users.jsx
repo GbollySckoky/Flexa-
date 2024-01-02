@@ -4,13 +4,15 @@ import lady2 from "../../assets/lady2.jpeg";
 import gee from "../../assets/gee.jpeg";
 import lady3 from "../../assets/lady3.jpeg";
 import { Link } from "react-router-dom";
+import Display from "./Display";
 
 const Users = () => {
   return (
+    <>
     <section id="container" className="text-Blue">
       <div className="text-center my-[80px]">
         <h1 className="mb-[25px] text-3xl font-medium">See What Our Users Has To Say</h1>
-        <p className="w-[890px] m-auto leading-[2rem] text-xl font-extra text-xl  leading-[2rem] font-lightlight">
+        <p className="w-[890px] m-auto leading-[2rem] text-xl font-extralight">
           Every month, we bring the spotlight to the heart of Flexa`s dynamic
           financial ecosystem, unveiling the comprehensive stories of
           individuals who have harnessed the full spectrum of Flexa`s
@@ -100,7 +102,7 @@ const Users = () => {
           <p className="text-end font-light ">7.30am, 23rd March 2023</p>
         </div>
       </div>
-      <div className="text-white flex justify-between bg-lightblues py-[70px] px-[40px] rounded-2xl mt-[70px]">
+      <div className="text-white flex justify-between bg-Blue py-[70px] px-[40px] rounded-2xl my-[70px]">
         <h1>Get started today for better future finance </h1>
         <div>
           <p className="pb-[20px] text-xl  leading-[2rem] font-light">
@@ -116,6 +118,8 @@ const Users = () => {
         </div>
       </div>
     </section>
+    <Display />
+    </>
   );
 };
 
