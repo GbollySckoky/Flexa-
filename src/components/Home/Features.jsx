@@ -11,7 +11,7 @@ const Features = () => {
       <div className="text-center pt-[30px] text-xl text-lightBlue font-light">
         <h3>Features That Make Us Standout</h3>
       </div>
-      <section className=" w-[85%] m-auto">
+      <section id="container">
         {/* MANAGE A CARD FOR ALL BUSINESS EXPENSES */}
 
         <div className="mt-[70px]">
@@ -87,7 +87,7 @@ const Features = () => {
 
           {/* Flexible Loans */}
 
-          <div className="mt-[70px]">
+          <div className="mt-[70px] mb-[100px]">
           <h1 className="text-lightblues text-2xl font-medium pb-3">
             Flexible Loans
           </h1>

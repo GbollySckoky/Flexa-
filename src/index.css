@@ -13,3 +13,7 @@ div img{
     display: flex;
     align-items: center;
 }
+#container{
+    width: 85%;
+    margin: auto;
+}
