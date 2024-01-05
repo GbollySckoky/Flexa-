@@ -6,8 +6,8 @@ import prime from "../../assets/image 22.svg";
 import pixi from "../../assets/image 23.svg";
 const Display = () => {
   return (
-    <section className=" bg-white py-[25px]  mt-[50px]">
-      <div id="container" className="flex justify-between">
+    <section  className="media bg-white py-[25px]  mt-[50px]">
+      <div id="container" className="box flex justify-between">
         <img src={master} alt="" />
         <img src={visa} alt="" />
         <img src={ibm} alt="" />

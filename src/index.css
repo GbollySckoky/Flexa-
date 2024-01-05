@@ -18,6 +18,33 @@
     margin: auto;
 }
 #cards  div{
-   
     gap: 50px;
 }
+.media{
+    position: relative;
+  }
+  .media:before{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 25%;
+    height: 100%;
+    background-color: red;
+  }
+@keyframes bounce {
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+    
+  }
+
+  .box{
+    animation: bounce 5s infinite linear;
+  }
+  .media:hover > .box{
+    animation-play-state: paused;
+  }
+  

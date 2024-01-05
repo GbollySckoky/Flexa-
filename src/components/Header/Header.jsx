@@ -5,7 +5,7 @@ const Header = () => {
     <div className="flex justify-around items-center bg-dark py-[13px] text-white">
       <div className="flex items-center">
         <img src={svg} alt="" />
-        <h1>Flexa</h1>
+        <h1 className="text-3xl font-medium pl-2">Flexa</h1>
       </div>
       <nav>
         <ul className="flex">
@@ -40,7 +40,9 @@ const Header = () => {
         <Link className="px-5" to={"#"}>
           Sign in
         </Link>
-        <button className="px-5 bg-white text-dark py-[12px] rounded-xl">Create New Account</button>
+        <button className="px-5 bg-white text-dark py-[12px] rounded-xl">
+          Create New Account
+        </button>
       </div>
     </div>
   );

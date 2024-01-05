@@ -9,10 +9,8 @@ const App = () => {
     <React.Fragment>
       <BrowserRouter>
         <Header />
-        <Hero />
-      
         <Routes>
-          <Route />
+          <Route path="/" element={<Hero />}/>
         </Routes>
         <Footer />
       </BrowserRouter>
