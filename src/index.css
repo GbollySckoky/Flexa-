@@ -22,29 +22,45 @@
 }
 .media{
     position: relative;
+    white-space: nowrap;
   }
-  .media:before{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 25%;
-    height: 100%;
-    background-color: red;
-  }
-@keyframes bounce {
+@keyframes slide {
     from{
         transform: translateX(0);
     }
     to{
         transform: translateX(-100%);
     }
-    
   }
-
   .box{
-    animation: bounce 5s infinite linear;
+    animation:5s slide infinite linear;
+  }
+  .box img{
+    padding: 0 30px;
   }
   .media:hover > .box{
     animation-play-state: paused;
   }
+  .media::before,
+  .media::after{
+    position: absolute;
+    top: 0;
+    width: 140px;
+    height: 100%;
+    content: "";
+    z-index: 2;
+  }
   
+  .media::before{
+    left: 0;
+    background:linear-gradient(to left, rgba(255,255,255 ,0), white);
+  }
+  .media::after{
+    right: 0;
+    background:linear-gradient(to rwhitet, rgba(255,255,255 ,0), white) ;
+  }
+   input{
+    border: 1px solid #3D6FFF;
+    /* border-color: brown; */
+    /* background-color: red; */
+  }

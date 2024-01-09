@@ -9,9 +9,9 @@ const Footer = () => {
     <section className="bg-Blue text-white py-[80px]">
       <div id="container">
         <div className="flex justify-between">
-          <div className=" flex items-start ">
-            <img src={logo} alt="" />
-            <h1>Flexa</h1>
+          <div className=" flex items-start text-4xl">
+            <img src={logo} alt="logo" />
+            <h1 className="font-medium pl-4">Flexa</h1>
           </div>
           {/* PRODUCT */}
           <nav>
@@ -75,15 +75,31 @@ const Footer = () => {
 
         {/* MEDIAS */}
         <div className=" flex pb-[80px]">
-          <img src={twitter} alt="" className="bg-grey rounded-full p-2 ml-2 cursor-pointer" />
-          <img src={ig} alt="" className="bg-grey rounded-full p-2 ml-2 cursor-pointer" />
-          <img src={behance} alt="" className="bg-grey rounded-full p-2 ml-2 cursor-pointer" />
-          <img src={linkden} alt="" className="bg-grey rounded-full p-2 ml-2 cursor-pointer" />
+          <img
+            src={twitter}
+            alt=""
+            className="bg-grey rounded-full p-2 ml-2 cursor-pointer"
+          />
+          <img
+            src={ig}
+            alt=""
+            className="bg-grey rounded-full p-2 ml-2 cursor-pointer"
+          />
+          <img
+            src={behance}
+            alt=""
+            className="bg-grey rounded-full p-2 ml-2 cursor-pointer"
+          />
+          <img
+            src={linkden}
+            alt=""
+            className="bg-grey rounded-full p-2 ml-2 cursor-pointer"
+          />
         </div>
       </div>
       <hr />
       <div id="container" className="flex ">
-      <div  className="pt-[80px] w-[50%] leading-[1.9rem]">
+        <div className="pt-[80px] w-[50%] leading-[1.9rem]">
           <p className="pb-[35px]">
             Flexa, your premier financial companion, is the forefront online
             savings and investing platform in Nigeria. Over the past 1 years,
@@ -98,11 +114,8 @@ const Footer = () => {
             2022 - 2023 Flexa Global Limited - RC 1005223
           </p>
         </div>
-        <div>
-          
-        </div>
+        <div></div>
       </div>
-        
     </section>
   );
 };

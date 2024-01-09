@@ -4,18 +4,23 @@ import ibm from "../../assets/Vector.svg";
 import spotify from "../../assets/ic_baseline-shopify.svg";
 import prime from "../../assets/image 22.svg";
 import pixi from "../../assets/image 23.svg";
+import Footer from "../../components/Footer/Footer"
 const Display = () => {
+
   return (
-    <section  className="media bg-white py-[25px]  mt-[50px]">
+    <>
+    <section  className="media bg-white flex">
       <div id="container" className="box flex justify-between">
-        <img src={master} alt="" />
-        <img src={visa} alt="" />
-        <img src={ibm} alt="" />
-        <img src={spotify} alt="" />
-        <img src={prime} alt="" />
-        <img src={pixi} alt="" />
+        <img src={master} alt="masterCard" />
+        <img src={visa} alt="visa" />
+        <img src={ibm} alt="ibm" />
+        <img src={spotify} alt="spotify" />
+        <img src={prime} alt="prime" />
+        <img src={pixi} alt="pixi" />
       </div>
     </section>
+    <Footer />
+    </>
   );
 };
 
