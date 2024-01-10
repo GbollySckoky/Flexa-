@@ -20,7 +20,12 @@ const Signup = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log(details);
+    if (details === ""){
+      alert("Please enter a description here")
+    }
   };
+
+  
   return (
     <div>
       <main className="bg-Blue pt-[30px] h-[130vh]">

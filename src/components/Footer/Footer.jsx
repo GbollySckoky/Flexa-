@@ -4,6 +4,9 @@ import twitter from "../../assets/pajamas_twitter.svg";
 import ig from "../../assets/openmoji_instagram.svg";
 import behance from "../../assets/uil_behance.svg";
 import linkden from "../../assets/ri_linkedin-fill.svg";
+import playStore from "../../assets/Group 33.svg";
+import appleStore from "../../assets/Group 34.svg"
+
 const Footer = () => {
   return (
     <section className="bg-Blue text-white py-[80px]">
@@ -98,7 +101,7 @@ const Footer = () => {
         </div>
       </div>
       <hr />
-      <div id="container" className="flex ">
+      <div id="container" className="flex justify-between">
         <div className="pt-[80px] w-[50%] leading-[1.9rem]">
           <p className="pb-[35px]">
             Flexa, your premier financial companion, is the forefront online
@@ -114,7 +117,10 @@ const Footer = () => {
             2022 - 2023 Flexa Global Limited - RC 1005223
           </p>
         </div>
-        <div></div>
+        <div className="flex  items-end ">
+    <img src={playStore} alt="" className="bg-white px-5 py-2 rounded-md"/>
+    <img src={appleStore} alt="" className="bg-white ml-6 px-5 py-2 rounded-md"/>
+        </div>
       </div>
     </section>
   );
