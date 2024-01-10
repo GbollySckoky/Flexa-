@@ -12,7 +12,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Hero />}/>
           <Route path="/create" element={<Signup />}/>
-          <Route path="/signin" element={<SignIn />}/>
+          <Route path="/sign-in" element={<SignIn />}/>
         </Routes>
       </BrowserRouter>
     </React.Fragment>

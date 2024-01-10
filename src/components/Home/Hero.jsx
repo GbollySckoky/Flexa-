@@ -4,18 +4,18 @@ const Hero = () => {
   return (
     <>
       <Header />
-      <div className="relative">
-        <section className="bg-Blue h-[60vh] ">
+      <div className="relative pt-[20px]">
+        <section className="bg-Blue mt-[60px]">
           <div className="bg-lightblues w-[65%] m-auto h-[60vh] rounded-b-full">
-            <div className="bg-lightBlue h-[45vh] w-[75%] m-auto rounded-b-full"></div>
+            <div className="bg-lightBlue h-[50vh] w-[80%] m-auto rounded-b-full"></div>
           </div>
         </section>
         <div className="absolute top-[110px] text-center w-full text-white">
-          <div className="text-4xl mb-[20px] font-bold leading-[3rem]">
-            <h1>Unleashing</h1>
-            <h1> Financial Revolution With Flexa</h1>
+          <div className="text-5xl mt-[90px] mb-[30px] font-semibold leading-[3rem]">
+            <h1 className="pb-3">Unleashing</h1>
+            <h1> Financial Revolution With <span className="text-yellows">Flexa</span> </h1>
           </div>
-          <div className="w-[750px] m-auto text-xl mb-[30px]">
+          <div className="w-[790px] m-auto text-xl mb-[30px]">
             <p className="font-light">
               Empowering 4 Million+ Customers on a Journey to Financial Triumph:
               Save Seamlessly, Invest Confidently, and Transact with Assurance.
