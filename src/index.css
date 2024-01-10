@@ -61,6 +61,7 @@
   }
    input{
     border: 1px solid #3D6FFF;
-    /* border-color: brown; */
-    /* background-color: red; */
+  }
+  select{
+    border: 1px solid #3D6FFF;
   }

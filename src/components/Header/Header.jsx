@@ -4,17 +4,19 @@ const Header = () => {
   return (
     <div>
       <main className="flex justify-around items-center bg-dark py-[13px] text-white">
-        <div className="flex items-center">
+        <div >
+          <Link className="flex items-center" to={"/"}>
           <img src={svg} alt="" />
           <h1 className="text-3xl font-medium pl-2">Flexa</h1>
+          </Link>
         </div>
         <nav>
           <ul className="flex">
-            <li>
+            {/* <li>
               <Link className="ml-[45px]" to={"/"}>
                 Home
               </Link>
-            </li>
+            </li> */}
             <li>
               <Link className="ml-[45px]" to={"#"}>
                 Services
@@ -38,7 +40,7 @@ const Header = () => {
           </ul>
         </nav>
         <div>
-          <Link className="px-5" to={"#"}>
+          <Link className="px-5" to={"/signin"}>
             Sign in
           </Link>
           <Link

@@ -1,8 +1,9 @@
 import Features from "./Features";
-
+import Header from "../../components/Header/Header";
 const Hero = () => {
   return (
     <>
+      <Header />
       <div className="relative">
         <section className="bg-Blue h-[60vh] ">
           <div className="bg-lightblues w-[65%] m-auto h-[60vh] rounded-b-full">
