@@ -7,23 +7,23 @@ import Work from "./Work";
 
 const Features = () => {
   return (
-    <div className="bg-grey">
-      <div className="text-center pt-[50px] text-2xl text-lightBlue font-light">
+    <div>
+      <div className="text-center pt-[50px] text-2xl text-Blue font-light">
         <h3>Features That Make Us Standout</h3>
       </div>
       <section id="container">
         {/* MANAGE A CARD FOR ALL BUSINESS EXPENSES */}
 
-        <div className="mt-[70px]">
-          <h1 className="text-lightblues text-2xl font-medium pb-3">
+        <div className="mt-[70px] text-Blue">
+          <h1 className=" text-2xl font-medium pb-3">
             Manage A Card For All Business Expenses
           </h1>
           <div className="flex justify-between ">
-            <p className="w-[600px] text-lightBlue pb-5 font-normal leading-[1.7rem]">
+            <p className="w-[600px]  pb-5 font-normal leading-[1.7rem]">
               Effortlessly track and your business expenses with Flex`s
               dedicated expense management card.
             </p>
-            <p className="text-lightBlue font-light">TRACKER</p>
+            <p className=" font-light">TRACKER</p>
           </div>
           <div className="bg-Blue pl-[50px]">
             <div className="flex ">
@@ -54,17 +54,17 @@ const Features = () => {
 
         {/* GENERATE A FREE BANK ACCOUNT */}
 
-        <div className="mt-[70px]">
-          <h1 className="text-lightblues text-2xl font-medium pb-3">
+        <div className="mt-[70px] text-Blue">
+          <h1 className=" text-2xl font-medium pb-3">
             Generate A Free Bank Account
           </h1>
           <div className="flex justify-between ">
-            <p className="w-[600px] text-lightBlue pb-5 font-normal leading-[1.7rem]">
+            <p className="w-[600px] pb-5 font-normal leading-[1.7rem]">
               Unlock the power of hassle-free banking with Flex`s complimentry
               bank account generation future. in just a few clicks, create your
               own free bank account right within the Flexa platform.
             </p>
-            <p className="text-lightBlue font-light">BANK ACCOUNT</p>
+            <p className=" font-light">BANK ACCOUNT</p>
           </div>
           <div className="bg-Blue pl-[50px]">
             <div className="flex ">
@@ -95,17 +95,17 @@ const Features = () => {
 
         {/* Flexible Loans */}
 
-        <div className="mt-[70px] mb-[100px]">
-          <h1 className="text-lightblues text-2xl font-medium pb-3">
+        <div className="mt-[70px] mb-[100px] text-Blue">
+          <h1 className=" text-2xl font-medium pb-3">
             Flexible Loans
           </h1>
           <div className="flex justify-between ">
-            <p className="w-[600px] text-lightBlue pb-5 font-normal leading-[1.7rem]">
+            <p className="w-[600px] pb-5 font-normal leading-[1.7rem]">
               At Flexa, we understand that financial needs vary, and flexibility
               is key when it comes to borrowing. That`s why we are proud to
               introduce our Flexible loans feature
             </p>
-            <p className="text-lightBlue font-light">LOANS</p>
+            <p className="font-light">LOANS</p>
           </div>
           <div className="bg-Blue pl-[50px]">
             <div className="flex ">

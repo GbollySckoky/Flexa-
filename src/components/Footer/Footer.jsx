@@ -5,11 +5,11 @@ import ig from "../../assets/openmoji_instagram.svg";
 import behance from "../../assets/uil_behance.svg";
 import linkden from "../../assets/ri_linkedin-fill.svg";
 import playStore from "../../assets/Group 33.svg";
-import appleStore from "../../assets/Group 34.svg"
+import appleStore from "../../assets/Group 34.svg";
 
 const Footer = () => {
   return (
-    <section className="bg-Blue text-white py-[80px]">
+    <section className="bg-lightblues text-white py-[80px]">
       <div id="container">
         <div className="flex justify-between">
           <div className=" flex items-start text-4xl">
@@ -81,22 +81,22 @@ const Footer = () => {
           <img
             src={twitter}
             alt=""
-            className="bg-grey rounded-full p-2 ml-2 cursor-pointer"
+            className="bg-grey text-lightblues rounded-full p-2 ml-2 cursor-pointer"
           />
           <img
             src={ig}
             alt=""
-            className="bg-grey rounded-full p-2 ml-2 cursor-pointer"
+            className="bg-grey text-lightblues rounded-full p-2 ml-2 cursor-pointer"
           />
           <img
             src={behance}
             alt=""
-            className="bg-grey rounded-full p-2 ml-2 cursor-pointer"
+            className="bg-grey text-lightblues rounded-full p-2 ml-2 cursor-pointer"
           />
           <img
             src={linkden}
             alt=""
-            className="bg-grey rounded-full p-2 ml-2 cursor-pointer"
+            className="bg-grey text-lightblues rounded-full p-2 ml-2 cursor-pointer"
           />
         </div>
       </div>
@@ -118,8 +118,16 @@ const Footer = () => {
           </p>
         </div>
         <div className="flex  items-end ">
-    <img src={playStore} alt="" className="bg-white px-5 py-2 rounded-md"/>
-    <img src={appleStore} alt="" className="bg-white ml-6 px-5 py-2 rounded-md"/>
+          <img
+            src={playStore}
+            alt=""
+            className="bg-white text-lightblues px-5 py-2 rounded-md"
+          />
+          <img
+            src={appleStore}
+            alt=""
+            className="bg-white text-lightblues ml-6 px-5 py-2 rounded-md"
+          />
         </div>
       </div>
     </section>

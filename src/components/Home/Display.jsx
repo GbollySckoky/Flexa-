@@ -9,7 +9,7 @@ const Display = () => {
 
   return (
     <>
-    <section  className="media bg-white flex">
+    <section  className="media bg-lightBlue flex">
       <div id="container" className="box flex justify-between">
         <img src={master} alt="masterCard" />
         <img src={visa} alt="visa" />

@@ -9,6 +9,7 @@ const App = () => {
   return (
     <React.Fragment>
       <BrowserRouter>
+
         <Routes>
           <Route path="/" element={<Hero />}/>
           <Route path="/create" element={<Signup />}/>

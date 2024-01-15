@@ -53,11 +53,11 @@
   
   .media::before{
     left: 0;
-    background:linear-gradient(to left, rgba(255,255,255 ,0), white);
+    background:linear-gradient(to left, rgba(255,255,255 ,0), #0B2960);
   }
   .media::after{
     right: 0;
-    background:linear-gradient(to rwhitet, rgba(255,255,255 ,0), white) ;
+    background:linear-gradient(to rwhitet, rgba(255,255,255 ,0), #0B2960) ;
   }
    input{
     border: 1px solid #3D6FFF;

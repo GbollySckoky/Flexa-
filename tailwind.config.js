@@ -11,9 +11,9 @@ export default {
         white: "#FFFFFF",
         yellows: "#FFE145",
         grey: "#E8EEFF",
-        lightBlue: "#3D6FFF",
-        lightblues: "#3267FE",
-        Blue: "#2251D1"
+        lightBlue: "#233B65",
+        lightblues: "#0B2960",
+        Blue: "#114095"
       }
     },
   },
