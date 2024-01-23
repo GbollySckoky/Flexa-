@@ -9,6 +9,7 @@ const Signup = () => {
     password: "",
     aboutUs: "",
   });
+  const [errors, setErrors] = useState("");
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -20,12 +21,9 @@ const Signup = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log(details);
-    if (details === ""){
-      alert("Please enter a description here")
-    }
+    setErrors(validate(details));
   };
 
-  
   return (
     <div>
       <main className="bg-Blue pt-[30px] h-[130vh]">
@@ -59,10 +57,10 @@ const Signup = () => {
                 autoComplete="Given Name"
                 onChange={handleChange}
                 name="fullName"
+                required
               />
             </div>
-
-            <div className="flex flex-col py-[20px]">
+            <div className="flex flex-col py-[10px]">
               <label
                 htmlFor="Email"
                 className="text-lightblues font-thin pb-2 text-sm"
@@ -77,10 +75,11 @@ const Signup = () => {
                 autoComplete="off"
                 onChange={handleChange}
                 name="email"
+                required
               />
             </div>
 
-            <div className="flex flex-col py-[20px]">
+            <div className="flex flex-col py-[10px]">
               <label
                 htmlFor="Phone Number"
                 className="text-lightblues font-thin pb-2 text-sm"
@@ -95,10 +94,11 @@ const Signup = () => {
                 autoComplete="number"
                 onChange={handleChange}
                 name="phoneNumber"
+                required
               />
             </div>
 
-            <div className="flex flex-col py-[20px]">
+            <div className="flex flex-col py-[10px]">
               <label
                 htmlFor="Password"
                 className="text-lightblues font-thin pb-2 text-sm"
@@ -113,10 +113,10 @@ const Signup = () => {
                 autoComplete="off"
                 onChange={handleChange}
                 name="password"
+                required
               />
             </div>
-
-            <div className="flex flex-col py-[20px]">
+            <div className="flex flex-col py-[10px]">
               <label
                 htmlFor="About Us"
                 className="text-lightblues font-thin pb-2 text-sm"
@@ -128,7 +128,11 @@ const Signup = () => {
                 className="p-3"
                 onChange={handleChange}
                 name="aboutUs"
+                required
               >
+                <option value="How did you hear from us">
+                  How did you hear from us
+                </option>
                 <option value="From A Friend">From A Friend</option>
                 <option value="instagram">Instagram</option>
                 <option value="Twitter">Twitter</option>

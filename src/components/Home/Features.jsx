@@ -44,7 +44,7 @@ const Features = () => {
               </div>
               <div
                 id="imgs"
-                className=" bg-lightBlue h-[470px] rounded-full w-[500px] mx-auto "
+                className="h-[470px] rounded-full w-[500px] mx-auto "
               >
                 <img className=" m-auto" src={img8} alt="" />
               </div>
@@ -85,7 +85,7 @@ const Features = () => {
               </div>
               <div
                 id="imgs"
-                className=" bg-lightBlue h-[470px] rounded-full w-[500px] mx-auto "
+                className="h-[470px] rounded-full w-[500px] mx-auto "
               >
                 <img className="m-auto" src={rectangle} alt="" />
               </div>
@@ -126,7 +126,7 @@ const Features = () => {
               </div>
               <div
                 id="imgs"
-                className=" bg-lightBlue h-[450px] rounded-full w-[470px] mx-auto "
+                className="h-[450px] rounded-full w-[470px] mx-auto "
               >
                 <img className="m-auto" src={image24} alt="" />
               </div>

@@ -13,7 +13,9 @@ export default {
         grey: "#E8EEFF",
         lightBlue: "#233B65",
         lightblues: "#0B2960",
-        Blue: "#114095"
+        Blue: "#114095",
+        primaryBlue: "#6F94FF",
+      lightGold:"#FFE145"
       }
     },
   },

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const SignIn = () => {
   return (
     <div>
-      <section className="bg-Blue ">
+      <section className="bg-lightblues ">
         <div className=" h-screen flex flex-col justify-center  items-center">
           <div className="text-center text-white">
             <h1 className="text-5xl font-medium pb-3">Welcome Back</h1>
@@ -34,9 +34,9 @@ const SignIn = () => {
               />
             </div>
             <div className="text-center text-yellows text-[15px] font-extralight mb-8">
-              <Link to={"#"}>Forgot Password?</Link>
+              <Link to={"#"}>Forgot Password? <span className="text-white">Reset it</span></Link>
             </div>
-            <div className="bg-white text-center w-3/5 mx-auto rounded-md py-3 mb-4 text-lightblues">
+            <div className="bg-white text-Blue text-center w-3/5 mx-auto rounded-md py-3 mb-4">
               <button>Get Started</button>
             </div>
           </form>
