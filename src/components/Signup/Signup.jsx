@@ -9,7 +9,6 @@ const Signup = () => {
     password: "",
     aboutUs: "",
   });
-  const [errors, setErrors] = useState("");
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -21,7 +20,6 @@ const Signup = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log(details);
-    setErrors(validate(details));
   };
 
   return (
