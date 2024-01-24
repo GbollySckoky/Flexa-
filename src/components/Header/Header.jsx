@@ -1,6 +1,8 @@
 import svg from "../../assets/image 20.svg";
 import { Link } from "react-router-dom";
 const Header = () => {
+
+  const [toggle, setToggle] = useState(false)
   return (
     <div>
       <main className="flex justify-around items-center bg-dark h-[80px]  text-white fixed w-full  z-[30]">
@@ -10,8 +12,8 @@ const Header = () => {
             <h1 className="text-3xl font-medium pl-2">Flexa</h1>
           </Link>
         </div>
-        <nav>
-          <ul className="flex">
+        <nav className="">
+          <ul className="flex sm:hidden md:static">
             <li>
               <Link className="ml-[45px]" to={"#"}>
                 Services
@@ -44,6 +46,12 @@ const Header = () => {
           >
             Create New Account
           </Link>
+        </div>
+
+        <div>
+          <div>
+            
+          </div>
         </div>
       </main>
     </div>

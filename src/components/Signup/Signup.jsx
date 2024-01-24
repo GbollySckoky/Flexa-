@@ -24,14 +24,14 @@ const Signup = () => {
 
   return (
     <div>
-      <main className="bg-Blue pt-[30px] h-[130vh]">
+      <main className="bg-Blue pt-[30px] sm:pb-[60px] md:h-[130vh] xl:h-[130vh]">
         <div>
           <Link className="flex items-center justify-center py-[35px]" to={"/"}>
             <img src={img} alt="" />
             <h1 className="text-3xl font-bold text-white pl-2">Flexa</h1>
           </Link>
         </div>
-        <section className="bg-white  w-[30%] m-auto rounded-xl">
+        <section className="bg-white sm:w-[330px] md:w-[500px] m-auto rounded-xl">
           <div className="text-center py-[30px] ">
             <h5 className="py-[10px]  text-Blue">Create A New Account</h5>
             <p className="text-lightBlue font-extralight">
@@ -140,7 +140,7 @@ const Signup = () => {
             </div>
             <button
               id="btn"
-              className="bg-Blue text-white px-[65px] py-3 block w-[70%] mx-auto rounded-lg my-[30px]"
+              className="bg-Blue text-white  md:px-[65px] py-3 block w-[70%] mx-auto rounded-lg my-[30px]"
             >
               Get Started
             </button>
