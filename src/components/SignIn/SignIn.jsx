@@ -44,6 +44,7 @@ const SignIn = () => {
                 className="sm:w-[280px] md:w-[450px] bg-transparent p-3 mb-5 rounded-md"
                 onChange={handleChange}
                 name="email"
+                autoComplete="off"
               />
             </div>
             <div>
@@ -53,6 +54,7 @@ const SignIn = () => {
                 className="sm:w-[280px] md:w-[450px] bg-transparent p-3 mb-4 rounded-md"
                 onChange={handleChange}
                 name="password"
+                autoComplete="off"
               />
             </div>
             <div className="text-center text-yellows text-[15px] font-extralight sm:mb-5 mb-8">

@@ -1,11 +1,12 @@
 import svg from "../../assets/image 20.svg";
+import { useState } from "react";
 import { Link } from "react-router-dom";
 const Header = () => {
 
   const [toggle, setToggle] = useState(false)
   return (
-    <div>
-      <main className="flex justify-around items-center bg-dark h-[80px]  text-white fixed w-full  z-[30]">
+    <div className="fixed w-full bg-dark">
+      <main className="flex justify-between items-center h-[80px] text-white">
         <div>
           <Link className="flex items-center" to={"/"}>
             <img src={svg} alt="" />
@@ -13,7 +14,7 @@ const Header = () => {
           </Link>
         </div>
         <nav className="">
-          <ul className="flex sm:hidden md:static">
+          <ul className="flex">
             <li>
               <Link className="ml-[45px]" to={"#"}>
                 Services
@@ -37,14 +38,14 @@ const Header = () => {
           </ul>
         </nav>
         <div>
-          <Link className="px-5" to={"/sign-in"}>
+          <Link className="px-9 py-[13px]" to={"/sign-in"}>
             Sign in
           </Link>
           <Link
             to={"/create"}
-            className="px-5  bg-white text-dark py-[19px] rounded-xl"
+            className="px-9  bg-white text-dark py-[13px] rounded-lg"
           >
-            Create New Account
+            Sign up
           </Link>
         </div>
 
