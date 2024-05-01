@@ -22,14 +22,14 @@ const SignIn = () => {
       <section className="bg-lightblues ">
         <div className=" h-screen flex flex-col justify-center  items-center">
           <div className="text-center text-white">
-            <h1 className="sm:text-4xl  md:text-5xl font-medium sm:pb-2 md:pb-3">
+            <h1 className="sm:text-4xl md:text-5xl font-medium sm:pb-2 md:pb-3">
               Welcome Back
             </h1>
             <p className="sm:text-2xl md:text-4xl sm:font-extralight font-light  ">
               Sign in to continue with
               <strong className="text-yellows"> Flexa</strong>
             </p>
-            <p className="sm:pt-[15px] w-[280px] md:w-full md:pt-[25px] font-normal pb-[20px]">
+            <p className="sm:pt-[15px] w-[280px] md:w-full md:pt-[10px] font-normal pb-[20px]">
               <small>
                 To sign in, please type in the emial address linked to your
                 account
@@ -45,6 +45,8 @@ const SignIn = () => {
                 onChange={handleChange}
                 name="email"
                 autoComplete="off"
+                required
+                value={inputs.email}
               />
             </div>
             <div>
@@ -55,6 +57,7 @@ const SignIn = () => {
                 onChange={handleChange}
                 name="password"
                 autoComplete="off"
+                value={inputs.password}
               />
             </div>
             <div className="text-center text-yellows text-[15px] font-extralight sm:mb-5 mb-8">
@@ -71,7 +74,7 @@ const SignIn = () => {
               {" "}
               <small>Don`t Have An Account?</small>
             </p>
-            <Link className="font-light text-sm" to={"/create"}>
+            <Link className="font-light pl-2 text-sm" to={"/create"}>
               Sign Up
             </Link>
           </div>

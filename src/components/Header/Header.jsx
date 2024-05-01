@@ -5,8 +5,8 @@ const Header = () => {
 
   const [toggle, setToggle] = useState(false)
   return (
-    <div className="fixed w-full bg-dark">
-      <main className="flex justify-between items-center h-[80px] text-white">
+    <div className="fixed w-full bg-dark z-[9999]">
+      <main className="flex justify-between items-center w-[85%] mx-auto h-[80px] text-white">
         <div>
           <Link className="flex items-center" to={"/"}>
             <img src={svg} alt="" />
@@ -47,12 +47,6 @@ const Header = () => {
           >
             Sign up
           </Link>
-        </div>
-
-        <div>
-          <div>
-            
-          </div>
         </div>
       </main>
     </div>

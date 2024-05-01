@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import img from "../../assets/image 20.svg";
 import { useState } from "react";
 const Signup = () => {
-  const [details, setDetails] = useState({
+  const [users, setUsers] = useState({
     fullName: "",
     email: "",
     phoneNumber: "",
@@ -12,14 +12,18 @@ const Signup = () => {
 
   const handleChange = (e) => {
     const { name, value } = e.target;
-    setDetails((prevState) => {
+    setUsers((prevState) => {
       return { ...prevState, [name]: value };
     });
   };
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(details);
+    console.log(users);
+    let message
+    if (users.password === ''){
+      alert('Please select')
+    }
   };
 
   return (
@@ -56,6 +60,7 @@ const Signup = () => {
                 onChange={handleChange}
                 name="fullName"
                 required
+                value={users.fullName}
               />
             </div>
             <div className="flex flex-col py-[10px]">
@@ -74,6 +79,7 @@ const Signup = () => {
                 onChange={handleChange}
                 name="email"
                 required
+                value={users.email}
               />
             </div>
 
@@ -93,6 +99,7 @@ const Signup = () => {
                 onChange={handleChange}
                 name="phoneNumber"
                 required
+                value={users.phoneNumber}
               />
             </div>
 
@@ -112,6 +119,7 @@ const Signup = () => {
                 onChange={handleChange}
                 name="password"
                 required
+                value={users.password}
               />
             </div>
             <div className="flex flex-col py-[10px]">
@@ -127,6 +135,7 @@ const Signup = () => {
                 onChange={handleChange}
                 name="aboutUs"
                 required
+                value={users.aboutUs}
               >
                 <option value="How did you hear from us">
                   How did you hear from us
