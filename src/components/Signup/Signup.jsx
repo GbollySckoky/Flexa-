@@ -28,7 +28,7 @@ const Signup = () => {
 
   return (
     <div>
-      <main className="bg-Blue pt-[30px] sm:pb-[60px] md:h-[130vh] xl:h-[130vh]">
+      <main className="bg-lightblues pt-[30px] sm:pb-[60px]">
         <div>
           <Link className="flex items-center justify-center py-[35px]" to={"/"}>
             <img src={img} alt="" />
@@ -149,7 +149,7 @@ const Signup = () => {
             </div>
             <button
               id="btn"
-              className="bg-Blue text-white  md:px-[65px] py-3 block w-[70%] mx-auto rounded-lg my-[30px]"
+              className="bg-lightblues text-white  md:px-[65px] py-3 block w-[70%] mx-auto rounded-lg my-[30px]"
             >
               Get Started
             </button>
