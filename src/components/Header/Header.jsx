@@ -26,7 +26,7 @@ const Header = () => {
               </Link>
             </li>
             <li>
-              <Link className="ml-[45px]" to={"#"}>
+              <Link className="ml-[45px]" to={"/about"}>
                 Security
               </Link>
             </li>

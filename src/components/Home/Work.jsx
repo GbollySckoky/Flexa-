@@ -6,7 +6,7 @@ import Users from "./Users";
 const Work = () => {
   return (
     <>
-      <section className="bg-Blue my-[80px] ">
+      <section className="bg-lightblues my-[80px] ">
         <div id="container" className="py-[80px] ">
           <div className="text-white">
             <p className="pb-4 text-2xl font-extralight">How Flexa Works</p>

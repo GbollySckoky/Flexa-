@@ -66,7 +66,7 @@ const Features = () => {
             </p>
             <p className=" font-light">BANK ACCOUNT</p>
           </div>
-          <div className="bg-Blue pl-[50px]">
+          <div className="bg-lightblues pl-[50px]">
             <div className="flex ">
               <div className="w-[50%] flex flex-col justify-evenly text-white">
                 <div className="mb-[150px]">
@@ -107,7 +107,7 @@ const Features = () => {
             </p>
             <p className="font-light">LOANS</p>
           </div>
-          <div className="bg-Blue pl-[50px]">
+          <div className="bg-lightblues pl-[50px]">
             <div className="flex ">
               <div className="w-[50%] flex flex-col justify-evenly text-white">
                 <div className="mb-[150px]">

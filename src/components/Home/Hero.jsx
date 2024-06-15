@@ -1,11 +1,11 @@
 import Features from "./Features";
-import Header from "../../components/Header/Header";
+// import Header from "../../components/Header/Header";
 const Hero = () => {
   return (
     <>
-      <Header />
+      {/* <Header /> */}
       <div className="pt-[80px]">
-        <section className="bg-Blue text-center w-full text-white">
+        <section className="bg-lightblues text-center w-full text-white">
           <div className="text-5xl  mb-[30px] font-semibold leading-[3rem] pt-[100px]">
             <h1 className="pb-3">Unleashing</h1>
             <h1>
