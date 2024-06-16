@@ -134,7 +134,6 @@ const Features = () => {
           </div>
         </div>
       </section>
-
       <Work />
     </div>
   );

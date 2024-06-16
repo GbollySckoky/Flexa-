@@ -31,8 +31,8 @@ const Header = () => {
               </Link>
             </li>
             <li>
-              <Link className="ml-[45px]" to={"#"}>
-                FAQs
+              <Link className="ml-[45px]" to={"/faq"}>
+                FAQ
               </Link>
             </li>
           </ul>

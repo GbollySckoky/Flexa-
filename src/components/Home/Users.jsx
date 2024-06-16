@@ -108,6 +108,8 @@ const Users = () => {
             <p className="text-end font-light mt-[90px]">7.30am, 23rd March 2023</p>
           </div>
         </div>
+
+        {/* GET STARTED */}
         <div className="text-white flex justify-between bg-lightblues py-[70px] px-[40px] rounded-2xl my-[70px]">
           <div className="text-4xl font-normal w-[50%]">
             <h1 className="w-[300px]">Get started today for better future finance </h1>
