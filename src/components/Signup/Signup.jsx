@@ -20,10 +20,6 @@ const Signup = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log(users);
-    let message
-    if (users.password === ''){
-      alert('Please select')
-    }
   };
 
   return (
