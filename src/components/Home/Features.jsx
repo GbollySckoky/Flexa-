@@ -8,13 +8,14 @@ import Work from "./Work";
 const Features = () => {
   return (
     <div>
-      <div className="text-center pt-[50px] text-2xl text-Blue font-light">
+      <div className="text-center pt-[50px] text-2xl text-lightblues font-light">
         <h3>Features That Make Us Standout</h3>
       </div>
       <section id="container">
+        
         {/* MANAGE A CARD FOR ALL BUSINESS EXPENSES */}
 
-        <div className="mt-[70px] text-Blue">
+        <div className="mt-[70px] text-lightblues">
           <h1 className=" text-2xl font-medium pb-3">
             Manage A Card For All Business Expenses
           </h1>
@@ -25,7 +26,7 @@ const Features = () => {
             </p>
             <p className=" font-light">TRACKER</p>
           </div>
-          <div className="bg-Blue pl-[50px]">
+          <div className="bg-lightblues pl-[50px]">
             <div className="flex ">
               <div className="w-[50%] flex flex-col justify-evenly text-white">
                 <div className="mb-[150px]">
@@ -54,7 +55,7 @@ const Features = () => {
 
         {/* GENERATE A FREE BANK ACCOUNT */}
 
-        <div className="mt-[70px] text-Blue">
+        <div className="mt-[70px] text-lightblues">
           <h1 className=" text-2xl font-medium pb-3">
             Generate A Free Bank Account
           </h1>
@@ -95,7 +96,7 @@ const Features = () => {
 
         {/* Flexible Loans */}
 
-        <div className="mt-[70px] mb-[100px] text-Blue">
+        <div className="mt-[70px] mb-[100px] text-lightblues">
           <h1 className=" text-2xl font-medium pb-3">
             Flexible Loans
           </h1>

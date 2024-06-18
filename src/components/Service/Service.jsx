@@ -1,4 +1,5 @@
 import React from 'react'
+import OurAccounts from './OurAccounts'
 
 const Service = () => {
   return (
@@ -19,12 +20,12 @@ const Service = () => {
                 </div>            
             </div>
             <div>
-                <div className='text-center'>
+                <div className='text-center text-lightblues'>
                     <h1 className='text-3xl font-medium'>Accounts</h1>
-                    <p className='text-xl font-normal pt-2'>Choose the right account for your needs.</p>
+                    <p className='text[25px] font-light pt-2'>Choose the right account for your needs.</p>
                 </div>
             </div>
-            
+            <OurAccounts />
         </div>
     </div>
   )

@@ -9,7 +9,7 @@ import Display from "./Display";
 const Users = () => {
   return (
     <>
-      <section id="container" className="text-Blue">
+      <section id="container" className="text-lightblues">
         <div className="text-center my-[80px]">
           <h1 className="mb-[25px] text-3xl font-medium">
             See What Our Users Has To Say
@@ -42,7 +42,7 @@ const Users = () => {
             <p className="text-end font-light mt-[42px]">7.30am, 23rd March 2023</p>
           </div>
           {/* CARD 2 */}
-          <div className="bg-Blue text-white p-[40px]">
+          <div className="bg-lightblues text-white p-[40px]">
             <div className="flex items-center ">
               <img
                 className="w-[80px] h-[80px] rounded-[50%]"
@@ -58,7 +58,7 @@ const Users = () => {
             <p className="text-end font-light">7.30am, 23rd March 2023</p>
           </div>
           {/* CARD 3 */}
-          <div className="row-span-2 bg-Blue text-white p-[40px]">
+          <div className="row-span-2 bg-lightblues text-white p-[40px]">
             <div className="flex items-center ">
               <img
                 className="w-[70px] h-[70px] rounded-[50%]"
@@ -75,7 +75,7 @@ const Users = () => {
             <p className="text-end font-light mt-[90px]">7.30am, 23rd March 2023</p>
           </div>
           {/* CARD 4 */}
-          <div className="bg-Blue text-white p-[40px]">
+          <div className="bg-lightblues text-white p-[40px]">
             <div className="flex items-center ">
               <img
                 className="w-[70px] h-[70px] rounded-[50%]"
@@ -93,7 +93,7 @@ const Users = () => {
             <p className="text-end font-light">7.30am, 23rd March 2023</p>
           </div>
           {/* CARD 5 */}
-          <div className="bg-Blue text-white p-[40px]">
+          <div className="bg-lightblues text-white p-[40px]">
             <div className="flex items-center ">
               <img
                 className="w-[70px] h-[70px] rounded-[50%]"

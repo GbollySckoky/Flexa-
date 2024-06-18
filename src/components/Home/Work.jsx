@@ -14,7 +14,7 @@ const Work = () => {
           </div>
           <section className="grid grid-cols-3 gap-3">
             {/* CREATE YOUR FLEXA ACCOUNT */}
-
+            
             <div className="bg-lightBlue text-white px-[30px] pt-[40px] pb-[80px]">
               <FaRegUser className="py-5 text-7xl bg-white text-yellows rounded-full" />
               <h1 className="py-[20px] text-2xl font-medium">Create Your Flexa Account </h1>
