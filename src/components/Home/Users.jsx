@@ -26,7 +26,7 @@ const Users = () => {
 
         <div id="cards" className="grid grid-cols-3  gap-x-6 gap-y-[30px] ">
           {/*   className='text-end'CARD 1 */}
-          <div className="bg-Blue text-white p-[40px]">
+          <div className="bg-lightblues text-white p-[40px]">
             <div className="flex items-center ">
               <img
                 className="w-[70px] h-[70px] rounded-[50%]"
@@ -108,7 +108,9 @@ const Users = () => {
             <p className="text-end font-light mt-[90px]">7.30am, 23rd March 2023</p>
           </div>
         </div>
-        <div className="text-white flex justify-between bg-Blue py-[70px] px-[40px] rounded-2xl my-[70px]">
+
+        {/* GET STARTED */}
+        <div className="text-white flex justify-between bg-lightblues py-[70px] px-[40px] rounded-2xl my-[70px]">
           <div className="text-4xl font-normal w-[50%]">
             <h1 className="w-[300px]">Get started today for better future finance </h1>
           </div>

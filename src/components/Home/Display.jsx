@@ -4,7 +4,6 @@ import ibm from "../../assets/Vector.svg";
 import spotify from "../../assets/ic_baseline-shopify.svg";
 import prime from "../../assets/image 22.svg";
 import pixi from "../../assets/image 23.svg";
-import Footer from "../../components/Footer/Footer"
 const Display = () => {
 
   return (
@@ -19,7 +18,6 @@ const Display = () => {
         <img src={pixi} alt="pixi" />
       </div>
     </section>
-    <Footer />
     </>
   );
 };
