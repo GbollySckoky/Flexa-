@@ -16,7 +16,7 @@ const Header = () => {
         <nav className="">
           <ul className="flex">
             <li>
-              <Link className="ml-[45px]" to={"#"}>
+              <Link className="ml-[45px]" to={"/services"}>
                 Services
               </Link>
             </li>

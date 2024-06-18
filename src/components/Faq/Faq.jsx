@@ -56,15 +56,15 @@ const Answer = styled.p`
                     <span className='text-[#0B2960] font-medium'> support@stitchvine.com</span>.
                 </p>
             </div>
-            <div className='relative mb-9'>
+            <div className='relative mb-9 w-[75%] mx-auto'>
                 <input
                 ref={inputRef} 
                 onChange={(e) => setQuery(e.target.value)}
-                className='w-[60%] mx-auto rounded-4xl py-2  grid place-items-center pl-[40px]'/>
+                className=' rounded-4xl py-2 w-full  pl-[40px]'/>
                 <span> 
                     <FiSearch 
                         size={20} 
-                        className='absolute left-[230px] top-3 cursor-pointer'
+                        className='absolute left-3 top-3 cursor-pointer'
                         onClick={() => {
                           if(inputRef.current){
                             inputRef.current.focus();
@@ -88,6 +88,12 @@ const Answer = styled.p`
                 </div>
             ))}
         </FAQContainer>
+        {/* INFO */}
+        <div className='bg-lightblues text-white my-[50px] w-[70%] mx-auto p-[50px] rounded-xl'>
+            <p>Moniepoint provides over 2 million people and businesses across Nigeria with access to banking, 
+                payments processing, loans and business management tools.
+            </p>
+        </div>
     </div>
   )
 }

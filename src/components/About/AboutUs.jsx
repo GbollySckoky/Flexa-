@@ -14,7 +14,7 @@ const AboutUs = () => {
         <div className=' bg-[#0B2960] text-white'>
             <div className=' w-[85%] mx-auto flex items-center py-[120px]'>
                 <div className='w-full'>
-                    <h1 className='text-3xl font-medium mb-2'>About Flexa</h1>
+                    <h1 className='text-4xl font-medium mb-3'>About Flexa</h1>
                     <p className='text-base font-light leading-[2rem]'>Flexa was established in response to a pressing need within the Nigerian banking sector: 
                         a need for reliable, affordable, and consistent banking services for SMBs. The Central 
                         Bank of Nigeria (CBN) has recognized the critical role that microfinance banks play in driving 
@@ -77,7 +77,7 @@ const AboutUs = () => {
         {/* OUR MISSION */}
         <div className=' mt-[60px] bg-[#0B2960] text-white'>
             <div className='w-[85%] mx-auto  p-[20px]'>
-                <h1 className='text-4xl font-medium py-[20px]'>Our Mission</h1>
+                <h1 className='text-3xl font-medium py-[20px]'>Our Mission</h1>
                 <p className='text-base font-light pb-3 leading-[2rem]'>Flexa's mission is simple: to offer small 
                     and medium-sized businesses the banking solutions 
                     they need without the burden of excessive charges. We leverage technology to provide seamless, 

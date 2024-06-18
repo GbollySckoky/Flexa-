@@ -7,6 +7,7 @@ import SignIn from "./components/SignIn/SignIn";
 import AboutUs from "./components/About/AboutUs";
 import Header from "./components/Header/Header";
 import Faq from "./components/Faq/Faq";
+import Service from "./components/Service/Service";
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
           <Route path="/sign-in" element={<SignIn />}/>
           <Route path="/about" element={<AboutUs />}/>
           <Route path="/faq" element={<Faq />}/>
+          <Route path="/services" element={<Service/>}/>
         </Routes>
         <Footer />
       </BrowserRouter>

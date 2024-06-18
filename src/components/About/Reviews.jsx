@@ -11,7 +11,7 @@ const Reviews = () => {
         {/* REVEIWS */}
         <div className=''>
             <div>
-                <h1 className='text-2xl font-medium text-center text-lightblues mb-[25px]'>
+                <h1 className='text-2xl font-medium text-center text-lightblues my-[45px]'>
                     Don't just take our word for it
                 </h1>
             </div>
