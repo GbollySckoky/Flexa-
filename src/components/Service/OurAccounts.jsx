@@ -10,7 +10,7 @@ const OurAccounts = () => {
                 {/* SAVINGS ACCOUNT */}
                 <div className='my-[50px]'>
                     <h1 className='text-3xl text-center mb-[50px]'>Savings Account</h1>
-                    <div className='flex w-[85%] mx-auto'>
+                    <div className='md:flex w-[85%] mx-auto'>
                         <div className='w-full'>
                             <h1 className='text-2xl mb-2'>Savings Account:</h1>
                             <p className='mb-2 text[20px] font-light leading-[2rem]'>Our Savings Accounts are designed to help you grow your savings securely while earning interest. 
@@ -114,6 +114,23 @@ const OurAccounts = () => {
                     <img src={flexa} className='w-full h-full' alt="" />
                     </div>
                     </div>
+                </div>
+            </div>
+            <div 
+                className='flex items-center justify-between w-[85%] mx-auto
+                bg-lightblues py-[40px] my-[25px] rounded-lg px-[80px]'>
+                <h1 className='text-white text-2xl font-normal max-w-[500px]'>
+                    Open an Account and Begin Your Investment Journey
+                </h1>
+                <div className='flex items-center flex-wrap relative'>
+                    <input 
+                        type="text" 
+                        placeholder='Sign Up' 
+                        className='py-[14px] w-[500px] outline-none pl-3 pr-[180px]'/>
+                    <button 
+                        className='text-white bg-lightblues py-3 mr-2 border-none outline-none rounded-lg px-5 absolute right-0'>
+                        Sign Up For Free
+                    </button>
                 </div>
             </div>
         </div>
