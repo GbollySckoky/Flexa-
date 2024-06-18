@@ -66,6 +66,11 @@ const OurAccounts = () => {
                                 transactions. Our overdraft protection ensures that you have a safety net for those 
                                 occasional shortfalls, providing peace of mind and financial stability.
                             </li>
+                            <li className='text[20px] font-light leading-[2rem] mb-2'>
+                                Free Debit Card and Checkbook: Access your money easily with a free debit card and checkbook 
+                                provided with your account. Make purchases, pay bills, and manage your finances effortlessly,
+                                whether you're at home or on the go.
+                            </li>
                         </ul>
                     </div>
                     <div className='w-full ml-[35px]'>
@@ -97,6 +102,11 @@ const OurAccounts = () => {
                                 Flexible Terms from 1 Month to 5 Years: Choose a term that suits your financial goals, ranging 
                                 from short-term deposits of 1 month to long-term investments of up to 5 years. This flexibility 
                                 allows you to plan your finances according to your needs.
+                            </li>
+                            <li className='text[20px] font-light leading-[2rem] mb-2'>
+                                Premature Withdrawal Option: While fixed deposits are intended to be held until maturity, we 
+                                understand that circumstances can change. Our premature withdrawal option allows you to access 
+                                your funds before the end of the term, though penalties may apply.
                             </li>
                         </ul>
                     </div>
