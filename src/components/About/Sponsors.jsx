@@ -7,7 +7,7 @@ import pixi from "../../assets/image 23.svg";
 import img8 from "../../assets/Group 8.svg";
 const Sponsors = () => {
   return (
-    <div className="mt-[50px]">
+    <div className="mt-[50px] hidden lg:block">
         <div className=" flex justify-evenly ">
             <img src={master} alt="masterCard" />
             <img src={visa} alt="visa" />

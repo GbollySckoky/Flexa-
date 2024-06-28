@@ -12,9 +12,9 @@ const AboutUs = () => {
     <div className=''>
         {/* ABOUT */}
         <div className=' bg-[#0B2960] text-white'>
-            <div className=' w-[85%] mx-auto flex items-center py-[120px]'>
+            <div className=' w-[85%] mx-auto lg:flex items-center lg:py-[120px] pt-[40px]'>
                 <div className='w-full'>
-                    <h1 className='text-4xl font-medium mb-3'>About Flexa</h1>
+                    <h1 className='lg:text-4xl text-2xl font-medium mb-3'>About Flexa</h1>
                     <p className='text-base font-light leading-[2rem]'>Flexa was established in response to a pressing need within the Nigerian banking sector: 
                         a need for reliable, affordable, and consistent banking services for SMBs. The Central 
                         Bank of Nigeria (CBN) has recognized the critical role that microfinance banks play in driving 
@@ -26,7 +26,7 @@ const AboutUs = () => {
                     <img 
                     src={transaction} 
                     alt="" 
-                    className='h-[200px]  rounded-lg'/>
+                    className='lg:h-[200px] my-[30px] lg:my-0 rounded-lg'/>
                 </div>
                 
             </div>
@@ -34,8 +34,8 @@ const AboutUs = () => {
         {/* RATE */}
         <div className='mt-[60px]'>
             <div 
-                className='flex items-center justify-evenly bg-white 
-                shadow-lg py-[30px] w-[85%] mx-auto rounded-lg'>
+                className='lg:flex items-center justify-evenly bg-white 
+                shadow-lg py-[30px] w-[85%] mx-auto rounded-lg space-y-7 lg:space-y-0 pl-[30px] lg:pl-0'>
                 <div className='flex items-center'>
                     <span> <CiBank
                     size={30}
@@ -78,42 +78,42 @@ const AboutUs = () => {
         <div className=' mt-[60px] bg-[#0B2960] text-white'>
             <div className='w-[85%] mx-auto  p-[20px]'>
                 <h1 className='text-3xl font-medium py-[20px]'>Our Mission</h1>
-                <p className='text-base font-light pb-3 leading-[2rem]'>Flexa's mission is simple: to offer small 
+                <p className='text-base lg:font-light font-extralight pb-3 leading-[2rem]'>Flexa's mission is simple: to offer small 
                     and medium-sized businesses the banking solutions 
                     they need without the burden of excessive charges. We leverage technology to provide seamless, 
                     affordable, and accessible banking services, ensuring our customers can focus on what they do 
                     best—growing their businesses.
                 </p>
-                <p className='text-base font-light pb-3 leading-[2rem]'>At Flexa, we understand the unique challenges
+                <p className='text-base lg:font-light font-extralight pb-3 leading-[2rem]'>At Flexa, we understand the unique challenges
                      faced by SMBs in Nigeria. That's why our services are 
                     tailored to meet the specific needs of this vital sector. Our innovative banking solutions include:
                 </p>
                 <ol className='list-disc'>
-                    <li className='font-light font-base pb-5 leading-[2rem]'>
+                    <li className='lg:font-light font-extralight font-base pb-5 leading-[2rem]'>
                         Transparent and Fair Pricing: We believe in clear and straightforward pricing with no hidden fees,
                          allowing businesses to manage their finances with confidence.
                     </li>
-                    <li className='font-light font-base pb-5 leading-[2rem]'>
+                    <li className='lg:font-light font-extralight font-base pb-5 leading-[2rem]'>
                         Advanced Technology Integration: By incorporating the latest in fintech innovations, we ensure 
                         that our customers have access to fast, efficient, and secure banking services, from mobile banking 
                         to AI-powered customer support.
                     </li>
-                    <li className='font-light font-base pb-5 leading-[2rem]'>
+                    <li className='lg:font-light font-extralight font-base pb-5 leading-[2rem]'>
                         Customized Financial Products: Whether it's working capital loans, merchant services, or savings 
                         accounts, our products are designed to support the financial health and growth of SMBs.
                     </li>
-                    <li className='font-light font-base pb-5 leading-[2rem]'>
+                    <li className='lg:font-light font-extralight font-base pb-5 leading-[2rem]'>
                         Financial Literacy and Support: We provide resources and support to help business owners understand 
                         and manage their finances better, empowering them to make informed financial decisions.
                     </li>
-                    <li className='font-light font-base pb-5 leading-[2rem]'>
+                    <li className='lg:font-light font-extralight font-base pb-5 leading-[2rem]'>
                         Customer-Centric Approach: At Flexa, our customers are at the heart of everything we do. Our 
                         dedicated support team is always ready to assist with any banking needs, ensuring a smooth and 
                         satisfying experience.
                     </li>
                 </ol>
                 <div>
-                    <p className='font-light font-base pb-5 leading-[2rem]'>By focusing on these core principles, Flexa 
+                    <p className='g:font-light font-extralight font-base pb-5 leading-[2rem]'>By focusing on these core principles, Flexa 
                         Microfinance Bank is committed to driving financial inclusion and economic 
                         growth in Nigeria. We strive to be more than just a bank; we aim to be a trusted partner 
                         in the success of every small 
