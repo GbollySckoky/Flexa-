@@ -45,7 +45,7 @@ const Features = () => {
               </div>
               <div
                 id="imgs"
-                className="lg:h-[470px] rounded-full lg:w-[500px] lg:mx-auto py-[20px] lg:py-0">
+                className="lg:h-[470px] rounded-full lg:w-[500px] lg:mx-auto py-[30px] lg:py-0">
                 <img className=" m-auto" src={img8} alt="" />
               </div>
             </div>
@@ -70,7 +70,7 @@ const Features = () => {
             <div className="lg:flex ">
               <div className="lg:w-[50%] flex flex-col justify-evenly text-white">
                 <div className="lg:mb-[150px] mb-[20px]">
-                  <h1 className="text-2xl font-normal pt-[60px] pb-[30px]">
+                  <h1 className="lg:text-2xl text-xl lg:font-normal pt-[60px] pb-[15px] lg:pb-[30px]">
                     Instant And Free Bank Account Creation
                   </h1>
                   <p className="leading-[1.9rem] font-extralight lg:font-normal">
@@ -85,7 +85,7 @@ const Features = () => {
               </div>
               <div
                 id="imgs"
-                className="lg:h-[470px] rounded-full lg:w-[500px] lg:mx-auto py-[20px] lg:py-0"
+                className="lg:h-[470px] rounded-full lg:w-[500px] lg:mx-auto py-[30px] lg:py-0"
               >
                 <img className="m-auto" src={rectangle} alt="" />
               </div>
@@ -111,10 +111,10 @@ const Features = () => {
             <div className="lg:flex ">
               <div className="lg:w-[50%] flex flex-col justify-evenly text-white">
                 <div className="lg:mb-[150px] mb-[20px]">
-                  <h1 className="text-2xl font-normal pt-[60px]  lg:pb-[30px]">
-                    Instant And Free Bank Account Creation
+                  <h1 className="lgtext-2xl text-xl lg:font-normal pt-[60px] pb-[15px] lg:pb-[30px]">
+                  Quick and Straightforward Loan Approval Processes
                   </h1>
-                  <p className="lg:w-[500px] font-extralight lg:font-normal pt-[30px] leading-[1.9rem]">
+                  <p className="lg:w-[500px] font-extralight lg:font-normal leading-[1.9rem]">
                     Say goodbye to lengthly approval processes. Get an instant
                     decision on your loan application, empowering you to make
                     timely financial decisions.
@@ -126,7 +126,7 @@ const Features = () => {
               </div>
               <div
                 id="imgs"
-                className="lg:h-[450px] rounded-full lg:w-[470px] py-[20px] lg:mx-auto "
+                className="lg:h-[450px] rounded-full lg:w-[470px] py-[30px] lg:py-0 lg:mx-auto "
               >
                 <img className="m-auto" src={image24} alt="" />
               </div>

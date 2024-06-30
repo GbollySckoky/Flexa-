@@ -8,15 +8,18 @@ const OurAccounts = () => {
         <div>
             <div className=' text-lightblues'>
                 {/* SAVINGS ACCOUNT */}
-                <div className='my-[50px]'>
-                    <h1 className='text-3xl text-center mb-[50px]'>Savings Account</h1>
-                    <div className='md:flex w-[85%] mx-auto'>
+                <div className='lg:my-[50px] my-[35px]'>
+                    <h1 className='lg:text-3xl text-2xl text-center lg:mb-[50px] mb-[35px]'>Savings Account</h1>
+                    <div className='lg:flex w-[85%] mx-auto'>
                         <div className='w-full'>
-                            <h1 className='text-2xl mb-2'>Savings Account:</h1>
-                            <p className='mb-2 text[20px] font-light leading-[2rem]'>Our Savings Accounts are designed to help you grow your savings securely while earning interest. 
-                                They are ideal for individuals looking to save for the future with easy access to their funds. 
+                            <h1 className='lg:text-2xl text-xl mb-2'>Savings Account:</h1>
+                            <p className='mb-2 text[20px] font-light leading-[2rem]'>
+                                Our Savings Accounts are designed to help you grow your savings securely while 
+                                earning interest. 
+                                They are ideal for individuals looking to save for the future with 
+                                easy access to their funds. 
                             </p>
-                            <p className='text-xl font-light my-2'>Features:</p>
+                            <p className='lg:text-2xl text-xl text-light lg:font-normal my-3'>Features:</p>
                             <ul className='list-disc'>
                                 <li className='text[20px] font-light leading-[2rem] mb-2'>
                                     Competitive Interest Rates: Enjoy higher returns on your savings with our competitive interest 
@@ -35,7 +38,7 @@ const OurAccounts = () => {
                                 </li>
                             </ul>
                         </div>
-                        <div className='w-full ml-[35px]'>
+                        <div className='w-full lg:ml-[35px] mt-5 lg:mt-0'>
                         <img src={tech} className='w-full h-full' alt="" />
                         </div>
                         
@@ -43,18 +46,20 @@ const OurAccounts = () => {
                 </div>
 
                 {/* CURRENT ACCOUNT */}
-                <div className='my-[50px]'>
-                    <h1 className='text-3xl text-center mb-[50px]'>Current Account</h1>
-                    <div className='flex w-[85%] mx-auto'>
+                <div className='lg:my-[50px] my-[45px]'>
+                    <h1 className='lg:text-3xl text-2xl text-center mb-[35px] lg:mb-[50px]'>
+                        Current Account
+                    </h1>
+                    <div className='lg:flex w-[85%] mx-auto'>
                     <div className='w-full'>
-                        <h1 className='text-2xl mb-2'>Current Account</h1>
+                        <h1 className='lg:text-2xl text-xl mb-2'>Current Account</h1>
                         <p className='mb-2 text[20px] font-light leading-[2rem]'>
                             Our Current Accounts offer a seamless way to manage your daily transactions with unlimited 
                             withdrawals and deposits. They are perfect for individuals and businesses needing frequent 
                             access to their funds. With a focus on convenience and flexibility, our current accounts are 
                             designed to meet your everyday banking needs efficiently and securely. 
                         </p>
-                        <p className='text-xl font-light my-2'>Features:</p>
+                        <p className='lg:text-2xl text-xl text-light lg:font-normal my-3'>Features:</p>
                         <ul className='list-disc'>
                             <li className='text[20px] font-light leading-[2rem] mb-2'>
                                 No Minimum Balance Requirement: Enjoy the freedom of banking without worrying about 
@@ -73,7 +78,7 @@ const OurAccounts = () => {
                             </li>
                         </ul>
                     </div>
-                    <div className='w-full ml-[35px]'>
+                    <div className='w-full lg:ml-[35px] mt-5 lg:mt-0'>
                     <img src={firm} className='w-full h-full' alt="" />
                     </div>
                     </div>
@@ -81,17 +86,17 @@ const OurAccounts = () => {
 
                {/* FIXED ACCOUNT */}
                <div className='my-[50px]'>
-                    <h1 className='text-3xl text-center mb-[50px]'>Fixed Account</h1>
-                    <div className='flex w-[85%] mx-auto'>
+                    <h1 className='lg:text-3xl text-2xl text-center mb-[30px] lg:mb-[50px]'>Fixed Account</h1>
+                    <div className='lg:flex w-[85%] mx-auto'>
                     <div className='w-full'>
-                        <h1 className='text-2xl mb-2'>Fixed Account</h1>
+                        <h1 className='lg:text-2xl text-xl mb-2'>Fixed Account</h1>
                         <p className='mb-2 text[20px] font-light leading-[2rem]'>
                             Fixed Deposits provide a secure investment option with guaranteed returns. Lock in your money 
                             for a fixed term and enjoy higher interest rates compared to regular savings accounts. Ideal 
                             for those looking to invest their funds without exposure to market risks, fixed deposits offer
                             a predictable and reliable way to grow your savings.
                         </p>
-                        <p className='text-xl font-light my-2'>Features:</p>
+                        <p className='lg:text-2xl text-xl text-light lg:font-normal my-3'>Features:</p>
                         <ul className='list-disc'>
                             <li className='text[20px] font-light leading-[2rem] mb-2'>
                                 Higher Interest Rates Compared to Savings Accounts: Earn more with our competitive fixed 
@@ -110,25 +115,26 @@ const OurAccounts = () => {
                             </li>
                         </ul>
                     </div>
-                    <div className='w-full ml-[35px]'>
+                    <div className='w-full lg:ml-[35px]  mt-5 lg:mt-0'>
                     <img src={flexa} className='w-full h-full' alt="" />
                     </div>
                     </div>
                 </div>
             </div>
             <div 
-                className='flex items-center justify-between w-[85%] mx-auto
-                bg-lightblues py-[40px] my-[25px] rounded-lg px-[80px]'>
-                <h1 className='text-white text-2xl font-normal max-w-[500px]'>
+                className='lg:flex items-center justify-between px-[20px] lg:w-[85%] mx-auto
+                bg-lightblues py-[40px] my-[25px] rounded-lg lg:px-[80px]'>
+                <h1 className='text-white text-center text-xl lg:text-2xl font-normal lg:w-[500px]'>
                     Open an Account and Begin Your Investment Journey
                 </h1>
-                <div className='flex items-center flex-wrap relative'>
+                <div className='lg:flex items-center mt-5 lg:mt-0 mr-4 flex-wrap relative'>
                     <input 
                         type="text" 
                         placeholder='Sign Up' 
-                        className='py-[14px] w-[500px] outline-none pl-3 pr-[180px]'/>
+                        className='lg:py-[14px] py-2 lg:w-[500px] outline-none pl-3 pr-[180px] w-full'/>
                     <button 
-                        className='text-white bg-lightblues py-3 mr-2 border-none outline-none rounded-lg px-5 absolute right-0'>
+                        className='text-white bg-lightblues py-[13px] lg:py-4  border-none outline-none 
+                        rounded-lg px-5 absolute right-0'>
                         Sign Up For Free
                     </button>
                 </div>

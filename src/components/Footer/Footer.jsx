@@ -105,17 +105,17 @@ const Footer = () => {
 
       <div id="container" className="lg:flex justify-between">
         <div className="lg:pt-[80px] lg:w-[50%] leading-[1.9rem]">
-          <p className="pb-[35px]">
+          <p className="pb-[35px] font-extralight lg:font-medium">
             Flexa, your premier financial companion, is the forefront online
             savings and investing platform in Nigeria. Over the past 1 years,
             our community has preserved and invested billions of Naira,
             redirecting funds that might have been impulsively spent.
           </p>
-          <p className="pb-[35px]">
+          <p className="pb-[35px] font-extralight lg:font-medium">
             Flexa Capital Management, a licensed fund manager approved by the
             Securities and Exchange Commission (SEC) of Nigeria?
           </p>
-          <p className="text-yellows">
+          <p className="text-yellows font-extralight lg:font-medium">
             2022 - 2023 Flexa Global Limited - RC 1005223
           </p>
         </div>
