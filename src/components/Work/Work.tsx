@@ -4,7 +4,7 @@ const Work = () => {
   return (
     <div className='pt-[80px] '>
       <div className=' mb-[20px] mt-[40px]'>
-        <h1 className='text-3xl text-center font-medium mb-[20px]'>
+        <h1 className='lg:text-3xl text-2xl text-center font-medium mb-[20px]'>
             How It Works
           </h1>
         <div className='w-[85%] mx-auto flex items-center'>
