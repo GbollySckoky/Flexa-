@@ -28,7 +28,7 @@ const Header = () => {
                 </Link>
               </li>
               <li>
-                <Link className="ml-[45px]" to={"#"}>
+                <Link className="ml-[45px]" to={"/work"}>
                   How it Works
                 </Link>
               </li>
@@ -74,19 +74,19 @@ const Header = () => {
         {toggle && (
           <nav className="bg-dark text-white">
             <ul className="flex flex-col items-center" onClick={handleClick}>
-              <li className="py-2">
+              <li className="py-4">
                 <Link to={"/services"}>Services</Link>
               </li>
-              <li className="py-2">
-                <Link to={"#"}>How it Works</Link>
+              <li className="py-4">
+                <Link to={"/work"}>How it Works</Link>
               </li>
-              <li className="py-2">
+              <li className="py-4">
                 <Link to={"/about"}>About Us</Link>
               </li>
-              <li className="py-2">
+              <li className="py-4">
                 <Link to={"/faq"}>FAQ</Link>
               </li>
-              <li className="py-2">
+              <li className="py-4">
                 <Link to={"/sign-in"}>Sign in</Link>
               </li>
             </ul>

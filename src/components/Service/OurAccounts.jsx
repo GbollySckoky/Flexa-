@@ -131,7 +131,7 @@ const OurAccounts = () => {
                     <input 
                         type="text" 
                         placeholder='Sign Up' 
-                        className='lg:py-[14px] py-2 lg:w-[500px] outline-none pl-3 pr-[180px] w-full'/>
+                        className='lg:py-[14px] py-2 lg:w-[500px] outline-none pl-3 pr-[170px] lg:pr-[180px] w-full'/>
                     <button 
                         className='text-white bg-lightblues py-[13px] lg:py-4  border-none outline-none 
                         rounded-lg px-5 absolute right-0'>

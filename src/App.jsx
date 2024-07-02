@@ -8,6 +8,7 @@ import AboutUs from "./components/About/AboutUs";
 import Header from "./components/Header/Header";
 import Faq from "./components/Faq/Faq";
 import Service from "./components/Service/Service";
+import Work from "./components/Work/Work";
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
           <Route path="/about" element={<AboutUs />}/>
           <Route path="/faq" element={<Faq />}/>
           <Route path="/services" element={<Service/>}/>
+          <Route path="/work" element={<Work/>}/>
         </Routes>
         <Footer />
       </BrowserRouter>
