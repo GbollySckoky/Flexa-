@@ -88,7 +88,7 @@ const Faq = () => {
       </FAQContainer>
       
       {/* INFO */}
-      <div className='bg-lightblues text-white my-[50px] lg:text-xl lg:font-normal font-light lg:w-[70%] mx-auto p-[50px] rounded-xl'>
+      <div className='bg-lightblues text-white my-[50px] lg:text-xl lg:font-normal font-light lg:w-[70%] mx-auto p-[50px]'>
         <p>Moniepoint provides over 2 million people and businesses across Nigeria with access to banking, 
           payments processing, loans and business management tools.
         </p>
