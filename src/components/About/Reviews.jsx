@@ -7,7 +7,7 @@ const Reviews = () => {
   return (
     <div>
         {/* REVEIWS */}
-        <div className='mb-[40px] lg:mb-0'>
+        <div className='mb-[40px]  lg:mb-[40px]'>
             <div>
                 <h1 className='lg:text-2xl text-xl font-medium text-center text-lightblues my-[45px]'>
                     Don't just take our word for it

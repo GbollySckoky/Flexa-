@@ -5,7 +5,8 @@ import { RiUserLocationFill } from "react-icons/ri";
 import { FaRegChartBar } from "react-icons/fa";
 import { IoBagHandleSharp } from "react-icons/io5";
 import Reviews from './Reviews';
-import Sponsors from './Sponsors';
+// import Sponsors from './Sponsors';
+import Display from '../Home/Display';
 const AboutUs = () => {
   return (
     <div className='pt-[80px]'>
@@ -123,7 +124,8 @@ const AboutUs = () => {
             </div>
         </div>
         <Reviews />
-        <Sponsors />
+        {/* <Sponsors /> */}
+        <Display />
     </div>
     </div>
   )

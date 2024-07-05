@@ -8,8 +8,8 @@ const Display = () => {
 
   return (
     <>
-    <section  className="lg:media hidden bg-lightBlue">
-      <div id="container" className="lg:box flex justify-between">
+    <section  className="media hidden lg:block bg-lightBlue">
+      <div id="container" className="box flex justify-between">
         <img src={master} alt="masterCard" />
         <img src={visa} alt="visa" />
         <img src={ibm} alt="ibm" />
