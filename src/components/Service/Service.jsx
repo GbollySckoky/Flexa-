@@ -7,18 +7,17 @@ const Service = () => {
         <div className='pt-[80px] '>
             <div className='text-center bg-lightblues text-white mb-[40px]'>
                 <div className='w-[85%] mx-auto py-[90px]'>
-                    <h1 className='lg:text-3xl  text-xl lg:font-medium lg:leading-5rem'>
+                    <h1 className='lg:text-3xl  text-xl lg:font-medium lg:leading-[2.8rem]'>
                         Explore Our Variety of Account <br /> Options to Meet All Your Financial Needs
                     </h1>
                     <p className='lg:text-base text-sm font-light lg:leading-[2rem] 
-                        lg:w-[60%] mx-auto mt-[10px] lg:mt-[24px]'>
+                        lg:w-[40%] mx-auto mt-[10px] lg:mt-[24px]'>
                         Empower your business in the payment 
                         revolution with Flexa. Join over 200,000 merchants
                         shaping a secure, simple, and innovative financial future.
                     </p>
                     <button 
-                        className='bg-white lg:px-[40px] p-2 text-sm lg:py-[10px] rounded-md text-lightBlue 
-                        mt-[30px] lg:text-xl '> 
+                        className="bg-white lg:px-[40px] p-2 text-sm lg:py-[15px] mt-[30px] rounded-md text-lightBlue lg:font-semibold"> 
                         Get Started
                     </button>
                 </div>            

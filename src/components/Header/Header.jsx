@@ -16,8 +16,8 @@ const Header = () => {
         <main className="flex justify-between items-center w-[85%] mx-auto h-[80px] text-white">
           <div>
             <Link className="flex items-center" to={"/"}>
-              <img src={svg} alt="logo" />
-              <h1 className="text-3xl font-medium pl-2">Flexa</h1>
+              <img className="w-[40px]" src={svg} alt="logo" />
+              <h1 className="text-2xl font-medium pl-2">Flexa</h1>
             </Link>
           </div>
           <nav>
