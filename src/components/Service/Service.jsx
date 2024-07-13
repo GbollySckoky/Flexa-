@@ -17,7 +17,8 @@ const Service = () => {
                         shaping a secure, simple, and innovative financial future.
                     </p>
                     <button 
-                        className="bg-white lg:px-[40px] p-2 text-sm lg:py-[15px] mt-[30px] rounded-md text-lightBlue lg:font-semibold"> 
+                        className="bg-white lg:px-[40px] p-2 text-sm lg:py-[15px] mt-[30px] 
+                        rounded-md text-lightBlue lg:font-semibold"> 
                         Get Started
                     </button>
                 </div>            
