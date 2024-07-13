@@ -11,7 +11,7 @@ const Service = () => {
                         Explore Our Variety of Account <br /> Options to Meet All Your Financial Needs
                     </h1>
                     <p className='lg:text-base text-sm font-light lg:leading-[2rem] 
-                        lg:w-[40%] mx-auto mt-[10px] lg:mt-[24px]'>
+                        lg:w-[40%] mx-auto mt-[10px] lg:mt-[20px]'>
                         Empower your business in the payment 
                         revolution with Flexa. Join over 200,000 merchants
                         shaping a secure, simple, and innovative financial future.
