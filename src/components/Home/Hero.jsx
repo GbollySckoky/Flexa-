@@ -6,8 +6,8 @@ const Hero = () => {
       {/* <Header /> */}
       <div className="pt-[80px]">
         <section className="bg-lightblues text-center w-full text-white">
-          <div className="lg:text-5xl text-xl  lg:mb-[30px] mb-[15px]  pt-[100px]">
-            <h1 className="lg:font-semibold lg:leading-[3rem]">
+          <div className="lg:text-5xl text-xl  lg:mb-[20px] mb-[15px]  pt-[100px]">
+            <h1 className="lg:font-semibold lg:leading-[4rem]">
                 Unleashing <br /> Financial Revolution With{" "}
               <span className="text-yellows">Flexa</span>{" "}
             </h1>
