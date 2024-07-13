@@ -19,7 +19,7 @@ const Hero = () => {
             </p>
           </div>
           <div className="pb-[90px]">
-            <button className="https://github.com/GbollySckoky/Flexa->
+            <button className="bg-white lg:px-[40px] p-2 text-sm lg:py-[15px] mt-[30px] rounded-md text-lightBlue lg:font-semibold">
               GET STARTED
             </button>
           </div>
