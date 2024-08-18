@@ -4,31 +4,60 @@ import image24 from "../../assets/image 24.svg";
 import { Link } from "react-router-dom";
 import { MdArrowOutward } from "react-icons/md";
 import Work from "./Work";
+import {motion} from 'framer-motion'
+import { fadeIn } from "../Variant";
 
 const Features = () => {
   return (
     <div>
       <div className="text-center pt-[50px] lg:text-2xl text-xl text-lightblues font-light">
-        <h3>Features That Make Us Standout</h3>
+        <motion.h3 
+         variants={fadeIn('up')}
+         initial='hidden'
+         whileInView={'show'}
+         viewport={{once: false, amount: 0.2}}
+        >
+          Features That Make Us Standout
+        </motion.h3>
       </div>
       <section id="container">
         
         {/* MANAGE A CARD FOR ALL BUSINESS EXPENSES */}
 
         <div className="lg:mt-[70px] mt-[40px] text-lightblues">
-          <h1 className=" lg:text-2xl font-medium pb-3">
+          <motion.h1 
+             variants={fadeIn('left')}
+             initial='hidden'
+             whileInView={'show'}
+             viewport={{once: false, amount: 0.2}}
+            className=" lg:text-2xl font-medium pb-3">
             Manage A Card For All Business Expenses
-          </h1>
+          </motion.h1>
           <div className="lg:flex justify-between ">
-            <p className="lg:w-[600px] pb-5 lg:font-normal leading-[1.7rem]">
+            <motion.p 
+               variants={fadeIn('left')}
+               initial='hidden'
+               whileInView={'show'}
+               viewport={{once: false, amount: 0.2}}
+              className="lg:w-[600px] pb-5 lg:font-normal leading-[1.7rem]">
               Effortlessly track and your business expenses with Flex`s
               dedicated expense management card.
-            </p>
-            <p className=" lg:font-light">TRACKER</p>
+            </motion.p>
+            <motion.p 
+               variants={fadeIn('right')}
+               initial='hidden'
+               whileInView={'show'}
+               viewport={{once: false, amount: 0.2}}
+              className=" lg:font-light">TRACKER</motion.p>
           </div>
           <div className="bg-lightblues lg:pl-[50px] px-[20px]">
             <div className="lg:flex ">
-              <div className="lg:w-[50%] flex flex-col justify-evenly text-white">
+              <motion.div 
+                 variants={fadeIn('left')}
+                 initial='hidden'
+                 whileInView={'show'}
+                 viewport={{once: false, amount: 0.3}}
+                className="lg:w-[50%] flex flex-col justify-evenly text-white">
                 <div className="lg:mb-[150px] mb-[20px]">
                   <h1 className="lg:text-2xl text-xl lg:font-normal lg:pt-[60px] pt-[40px] lg:pb-[30px] pb-[15px]">
                     Customizable Spending Limits
@@ -42,12 +71,16 @@ const Features = () => {
                 <Link className="flex items-center font-extralight lg:font-normal text-yellows" to={"#"}>
                   See How <MdArrowOutward className="text-2xl ml-2" />
                 </Link>
-              </div>
-              <div
+              </motion.div>
+              <motion.div
+               variants={fadeIn('right')}
+               initial='hidden'
+               whileInView={'show'}
+               viewport={{once: false, amount: 0.3}}
                 id="imgs"
                 className="lg:h-[470px] rounded-full lg:w-[500px] lg:mx-auto py-[30px] lg:py-0">
                 <img className=" m-auto" src={img8} alt="" />
-              </div>
+              </motion.div>
             </div>
           </div>
         </div>
@@ -55,20 +88,40 @@ const Features = () => {
         {/* GENERATE A FREE BANK ACCOUNT */}
 
         <div className="lg:mt-[70px] mt-[40px] text-lightblues">
-          <h1 className=" lg:text-2xl font-medium pb-3">
+          <motion.h1 
+             variants={fadeIn('left')}
+             initial='hidden'
+             whileInView={'show'}
+             viewport={{once: false, amount: 0.2}}
+            className=" lg:text-2xl font-medium pb-3">
             Generate A Free Bank Account
-          </h1>
+          </motion.h1>
           <div className="lg:flex justify-between ">
-            <p className="lg:w-[600px] pb-5 lg:font-normal leading-[1.7rem]">
+            <motion.p 
+               variants={fadeIn('left')}
+               initial='hidden'
+               whileInView={'show'}
+               viewport={{once: false, amount: 0.2}}
+              className="lg:w-[600px] pb-5 lg:font-normal leading-[1.7rem]">
               Unlock the power of hassle-free banking with Flex`s complimentry
               bank account generation future. in just a few clicks, create your
               own free bank account right within the Flexa platform.
-            </p>
-            <p className=" font-light">BANK ACCOUNT</p>
+            </motion.p>
+            <motion.p 
+             variants={fadeIn('right')}
+             initial='hidden'
+             whileInView={'show'}
+             viewport={{once: false, amount: 0.2}}
+            className="font-light">BANK ACCOUNT</motion.p>
           </div>
           <div className="bg-lightblues lg:pl-[50px] px-[20px]">
             <div className="lg:flex ">
-              <div className="lg:w-[50%] flex flex-col justify-evenly text-white">
+              <motion.div 
+                 variants={fadeIn('left')}
+                 initial='hidden'
+                 whileInView={'show'}
+                 viewport={{once: false, amount: 0.2}}
+                className="lg:w-[50%] flex flex-col justify-evenly text-white">
                 <div className="lg:mb-[150px] mb-[20px]">
                   <h1 className="lg:text-2xl text-xl lg:font-normal pt-[60px] pb-[15px] lg:pb-[30px]">
                     Instant And Free Bank Account Creation
@@ -82,13 +135,17 @@ const Features = () => {
                 <Link className="flex items-center font-extralight lg:font-normal text-yellows" to={"#"}>
                   Learn More <MdArrowOutward className="lg:text-2xl ml-2"/>
                 </Link>
-              </div>
-              <div
+              </motion.div>
+              <motion.div
+               variants={fadeIn('right')}
+               initial='hidden'
+               whileInView={'show'}
+               viewport={{once: false, amount: 0.2}}
                 id="imgs"
                 className="lg:h-[470px] rounded-full lg:w-[500px] lg:mx-auto py-[30px] lg:py-0"
               >
                 <img className="m-auto" src={rectangle} alt="" />
-              </div>
+              </motion.div>
             </div>
           </div>
         </div>
