@@ -3,6 +3,8 @@ import { FiSearch } from 'react-icons/fi';
 import { AiOutlinePlus, AiOutlineMinus } from 'react-icons/ai';
 import styled from 'styled-components';
 import faqData from './FaqData';
+import {motion} from 'framer-motion'
+import { fadeIn } from "../Variant";
 
 const FAQContainer = styled.div`
   width: 80%;
@@ -42,18 +44,33 @@ const Faq = () => {
     setOpenPanel(openPanel === panel ? null : panel);
   };
 
+  const handleActive = () => {
+    if (inputRef.current) {
+      inputRef.current.focus();
+    }
+  }
   return (
     <div className='pt-[80px]'>
       <div className='w-[85%] mx-auto'>
-        <div className='text-center mt-[50px] mb-[30px] lg:my-[50px]'>
+        <motion.div 
+          variants={fadeIn('up')}
+          initial='hidden'
+          whileInView={'show'}
+          viewport={{once: false, amount: 0.2}}
+          className='text-center mt-[50px] mb-[30px] lg:my-[50px]'>
           <h1 className='lg:text-[50px] text-2xl font-medium lg:mb-[20px]'>Frequently asked questions</h1>
           <p className='lg:text-lg text-base my-1 font-light'>Find answers to the most frequently asked questions.</p>
           <p className='lg:ext-lg my-1  font-light'>Can't find the answer you're looking for?</p>
           <p className='lg:text-lg font-light'>Get in touch with our support team at 
             <span className='text-[#0B2960] font-medium'> support@stitchvine.com</span>.
           </p>
-        </div>
-        <div className='relative mb-9 w-[75%] mx-auto'>
+        </motion.div>
+        <motion.div 
+           variants={fadeIn('left')}
+           initial='hidden'
+           whileInView={'show'}
+           viewport={{once: false, amount: 0.2}}
+          className='relative mb-9 w-[75%] mx-auto'>
           <input
             ref={inputRef} 
             onChange={(e) => setQuery(e.target.value)}
@@ -63,14 +80,10 @@ const Faq = () => {
             <FiSearch 
               size={20} 
               className='absolute left-3 top-3 cursor-pointer'
-              onClick={() => {
-                if (inputRef.current) {
-                  inputRef.current.focus();
-                }
-              }}
+              onClick={handleActive}
             /> 
           </span>
-        </div>
+        </motion.div>
       </div>
       
       <FAQContainer>

@@ -1,9 +1,16 @@
 import React from 'react'
-// import tx from '../../assets/Group.png'
+import {motion} from 'framer-motion'
+import { fadeIn } from "../Variant";
+
 const Work = () => {
   return (
     <div className='pt-[80px] '>
-      <div className=' mb-[20px] mt-[40px]'>
+      <motion.div
+        variants={fadeIn('up')}
+        initial='hidden'
+        whileInView={'show'}
+        viewport={{once: false, amount: 0.2}} 
+        className=' mb-[20px] mt-[40px]'>
         <h1 className='lg:text-3xl text-2xl text-center font-medium mb-[20px]'>
             How It Works
           </h1>
@@ -17,8 +24,13 @@ const Work = () => {
             </p>
           </div>
         </div>
-      </div>
-      <ul className='list-disc w-[85%] mx-auto mb-[30px]'>
+      </motion.div>
+      <ul 
+         variants={fadeIn('left')}
+         initial='hidden'
+         whileInView={'show'}
+         viewport={{once: false, amount: 0.2}}
+        className='list-disc w-[85%] mx-auto mb-[30px]'>
         {/* INITIAL CONSULTATION */}
         <p className='text-xl font-normal py-2'>
           Initial Consultation:

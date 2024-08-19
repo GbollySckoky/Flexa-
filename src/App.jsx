@@ -10,6 +10,7 @@ import Faq from "./components/Faq/Faq";
 import Service from "./components/Service/Service";
 import Work from "./components/Work/Work";
 
+
 const App = () => {
   return (
     <React.Fragment>
