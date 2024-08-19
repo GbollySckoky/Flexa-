@@ -6,12 +6,21 @@ import lady3 from "../../assets/lady3.jpeg";
 import { Link } from "react-router-dom";
 import Display from "./Display";
 import Avatar from '@mui/material/Avatar';
-
+import {motion} from 'framer-motion'
+import { fadeIn } from "../Variant";
 const Users = () => {
   return (
     <>
-      <section id="container" className="text-lightblues">
-        <div className="text-center my-[80px]">
+      <section 
+      
+        id="container" 
+        className="text-lightblues">
+        <motion.div 
+          variants={fadeIn('up')}
+          initial='hidden'
+          whileInView={'show'}
+          viewport={{once: false, amount: 0.2}}
+          className="text-center my-[80px]">
           <h1 className="mb-[25px] lg:text-3xl text-xl font-light lg:font-medium">
             See What Our Users Has To Say
           </h1>
@@ -21,11 +30,13 @@ const Users = () => {
             individuals who have harnessed the full spectrum of Flexa`s
             capabilities.
           </p>
-        </div>
+        </motion.div>
 
         {/* CARDS */}
 
-        <div id="cards" className="grid lg:grid-cols-3 grid-cols-1  gap-x-6 gap-y-[30px] ">
+        <div 
+          id="cards" 
+          className="grid lg:grid-cols-3 grid-cols-1  gap-x-6 gap-y-[30px] ">
           {/*   className='text-end'CARD 1 */}
             <div className="bg-lightblues text-white p-[40px]">
                 <div className="flex items-center ">
@@ -108,9 +119,20 @@ const Users = () => {
         {/* GET STARTED */}
         <div className="text-white lg:flex justify-between bg-lightblues py-[70px] px-[40px] rounded-2xl my-[70px]">
           <div className="lg:text-4xl lg:font-normal lg:w-[50%]">
-            <h1 className="lg:w-[300px]">Get started today for better future finance </h1>
+            <motion.h1 
+             variants={fadeIn('left')}
+             initial='hidden'
+             whileInView={'show'}
+             viewport={{once: false, amount: 0.7}}
+              className="lg:w-[300px]">
+              Get started today for better future finance 
+            </motion.h1>
           </div>
-          <div >
+          <motion.div 
+             variants={fadeIn('right')}
+             initial='hidden'
+             whileInView={'show'}
+             viewport={{once: false, amount: 0.2}}>
             <p className="pb-[20px] pt-[20px] lg:text-lg lg:leading-[2rem] font-extralight">
               Empowering 4 Million+ Customers on a Journey to Financial Triumph:
               Save Seamlessly, Invest Confidently, and Transact with Assurance.
@@ -121,8 +143,7 @@ const Users = () => {
             <Link to={"#"} className="ml-5 lg:text-lg  font-thin">
               Learn More
             </Link>
-          </div>
-          <div></div>
+          </motion.div>
         </div>
       </section>
       <Display />

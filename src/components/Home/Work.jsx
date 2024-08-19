@@ -2,17 +2,29 @@ import { FaRegUser } from "react-icons/fa";
 import { CiWallet } from "react-icons/ci";
 import { FiLock } from "react-icons/fi";
 import Users from "./Users";
+import {motion} from 'framer-motion'
+import { fadeIn } from "../Variant";
 
 const Work = () => {
   return (
     <>
       <section className="bg-lightblues my-[80px] ">
         <div id="container" className="py-[80px] ">
-          <div className="text-white">
+          <motion.div
+              variants={fadeIn('left')}
+              initial='hidden'
+              whileInView={'show'}
+              viewport={{once: false, amount: 0.7}}
+           className="text-white">
             <p className="pb-4 text-2xl font-extralight">How Flexa Works</p>
             <p className="pb-[39px] lg:text-3xl text-xl font-medium">Step-By-Step Process</p>
-          </div>
-          <section className="grid lg:grid-cols-3 grid-cols-1 gap-3">
+          </motion.div>
+          <motion.section
+            variants={fadeIn('up')}
+            initial='hidden'
+            whileInView={'show'}
+            viewport={{once: false, amount: 0.2}}
+             className="grid lg:grid-cols-3 grid-cols-1 gap-3">
             {/* CREATE YOUR FLEXA ACCOUNT */}
             
             <div className="bg-lightBlue text-white px-[30px] pt-[40px] pb-[80px]">
@@ -46,7 +58,7 @@ const Work = () => {
                 transaction breakdowns. and manage your funds.
               </p>
             </div>
-          </section>
+          </motion.section>
         </div>
       </section>
       <Users />

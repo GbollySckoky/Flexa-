@@ -153,20 +153,40 @@ const Features = () => {
         {/* Flexible Loans */}
 
         <div className="mt-[70px] mb-[100px] text-lightblues">
-          <h1 className=" text-2xl font-medium pb-3">
+          <motion.h1 
+              variants={fadeIn('left')}
+              initial='hidden'
+              whileInView={'show'}
+              viewport={{once: false, amount: 0.2}}
+            className=" text-2xl font-medium pb-3">
             Flexible Loans
-          </h1>
+          </motion.h1>
           <div className="lg:flex justify-between ">
-            <p className="lg:w-[600px] pb-5 lg:font-normal leading-[1.7rem]">
+            <motion.p 
+                variants={fadeIn('left')}
+                initial='hidden'
+                whileInView={'show'}
+                viewport={{once: false, amount: 0.2}}
+              className="lg:w-[600px] pb-5 lg:font-normal leading-[1.7rem]">
               At Flexa, we understand that financial needs vary, and flexibility
               is key when it comes to borrowing. That`s why we are proud to
               introduce our Flexible loans feature
-            </p>
-            <p className="font-light">LOANS</p>
+            </motion.p>
+            <motion.p
+                variants={fadeIn('right')}
+                initial='hidden'
+                whileInView={'show'}
+                viewport={{once: false, amount: 0.2}} 
+              className="font-light">LOANS</motion.p>
           </div>
           <div className="bg-lightblues lg:pl-[50px] px-[20px]">
             <div className="lg:flex ">
-              <div className="lg:w-[50%] flex flex-col justify-evenly text-white">
+              <motion.div 
+                variants={fadeIn('left')}
+                initial='hidden'
+                whileInView={'show'}
+                viewport={{once: false, amount: 0.2}}
+                className="lg:w-[50%] flex flex-col justify-evenly text-white">
                 <div className="lg:mb-[150px] mb-[20px]">
                   <h1 className="lgtext-2xl text-xl lg:font-normal pt-[60px] pb-[15px] lg:pb-[30px]">
                   Quick and Straightforward Loan Approval Processes
@@ -180,13 +200,17 @@ const Features = () => {
                 <Link className="flex items-center font-extralight lg:font-normal text-yellows" to={"#"}>
                   Learn More <MdArrowOutward className="text-2xl ml-2"/>
                 </Link>
-              </div>
-              <div
+              </motion.div>
+              <motion.div
+                  variants={fadeIn('right')}
+                  initial='hidden'
+                  whileInView={'show'}
+                  viewport={{once: false, amount: 0.2}}
                 id="imgs"
                 className="lg:h-[450px] rounded-full lg:w-[470px] py-[30px] lg:py-0 lg:mx-auto "
               >
                 <img className="m-auto" src={image24} alt="" />
-              </div>
+              </motion.div>
             </div>
           </div>
         </div>
