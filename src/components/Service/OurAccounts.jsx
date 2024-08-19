@@ -2,6 +2,8 @@ import React from 'react'
 import tech from '../../assets/tech.jpg'
 import firm from '../../assets/firm.jpg'
 import flexa from '../../assets/flexa.png'
+import {motion} from 'framer-motion'
+import { fadeIn } from "../Variant";
 const OurAccounts = () => {
   return (
     <div>
@@ -9,9 +11,21 @@ const OurAccounts = () => {
             <div className=' text-lightblues'>
                 {/* SAVINGS ACCOUNT */}
                 <div className='lg:my-[50px] my-[35px]'>
-                    <h1 className='lg:text-3xl text-2xl text-center lg:mb-[50px] mb-[35px]'>Savings Account</h1>
+                    <motion.h1 
+                         variants={fadeIn('up')}
+                         initial='hidden'
+                         whileInView={'show'}
+                         viewport={{once: false, amount: 0.2}}
+                        className='lg:text-3xl text-2xl text-center lg:mb-[50px] mb-[35px]'>
+                            Savings Account
+                    </motion.h1>
                     <div className='lg:flex w-[85%] mx-auto'>
-                        <div className='w-full'>
+                        <motion.div 
+                        className='w-full'
+                         variants={fadeIn('left')}
+                         initial='hidden'
+                         whileInView={'show'}
+                         viewport={{once: false, amount: 0.2}}>
                             <h1 className='lg:text-2xl text-xl mb-2'>Savings Account:</h1>
                             <p className='mb-2 text[20px] font-light leading-[2rem]'>
                                 Our Savings Accounts are designed to help you grow your savings securely while 
@@ -37,21 +51,36 @@ const OurAccounts = () => {
                                     convenience and control at your fingertips.
                                 </li>
                             </ul>
-                        </div>
-                        <div className='w-full lg:ml-[35px] mt-5 lg:mt-0'>
+                        </motion.div>
+                        <motion.div 
+                        variants={fadeIn('right')}
+                        initial='hidden'
+                        whileInView={'show'}
+                        viewport={{once: false, amount: 0.2}}
+                        className='w-full lg:ml-[35px] mt-5 lg:mt-0'>
                         <img src={tech} className='w-full h-full' alt="" />
-                        </div>
+                        </motion.div>
                         
                     </div>
                 </div>
 
                 {/* CURRENT ACCOUNT */}
                 <div className='lg:my-[50px] my-[45px]'>
-                    <h1 className='lg:text-3xl text-2xl text-center mb-[35px] lg:mb-[50px]'>
+                    <motion.h1 
+                         variants={fadeIn('up')}
+                         initial='hidden'
+                         whileInView={'show'}
+                         viewport={{once: false, amount: 0.2}}
+                        className='lg:text-3xl text-2xl text-center mb-[35px] lg:mb-[50px]'>
                         Current Account
-                    </h1>
+                    </motion.h1>
                     <div className='lg:flex w-[85%] mx-auto'>
-                    <div className='w-full'>
+                    <motion.div 
+                         variants={fadeIn('left')}
+                         initial='hidden'
+                         whileInView={'show'}
+                         viewport={{once: false, amount: 0.2}}
+                        className='w-full'>
                         <h1 className='lg:text-2xl text-xl mb-2'>Current Account</h1>
                         <p className='mb-2 text[20px] font-light leading-[2rem]'>
                             Our Current Accounts offer a seamless way to manage your daily transactions with unlimited 
@@ -77,18 +106,35 @@ const OurAccounts = () => {
                                 whether you're at home or on the go.
                             </li>
                         </ul>
-                    </div>
-                    <div className='w-full lg:ml-[35px] mt-5 lg:mt-0'>
+                    </motion.div>
+                    <motion.div 
+                     variants={fadeIn('right')}
+                     initial='hidden'
+                     whileInView={'show'}
+                     viewport={{once: false, amount: 0.2}}
+                    className='w-full lg:ml-[35px] mt-5 lg:mt-0'>
                     <img src={firm} className='w-full h-full' alt="" />
-                    </div>
+                    </motion.div>
                     </div>
                 </div>
 
                {/* FIXED ACCOUNT */}
                <div className='my-[50px]'>
-                    <h1 className='lg:text-3xl text-2xl text-center mb-[30px] lg:mb-[50px]'>Fixed Account</h1>
+                    <motion.h1 
+                         variants={fadeIn('up')}
+                         initial='hidden'
+                         whileInView={'show'}
+                         viewport={{once: false, amount: 0.2}}
+                        className='lg:text-3xl text-2xl text-center mb-[30px] lg:mb-[50px]'>
+                        Fixed Account
+                    </motion.h1>
                     <div className='lg:flex w-[85%] mx-auto'>
-                    <div className='w-full'>
+                    <motion.div 
+                         variants={fadeIn('left')}
+                         initial='hidden'
+                         whileInView={'show'}
+                         viewport={{once: false, amount: 0.2}}
+                        className='w-full'>
                         <h1 className='lg:text-2xl text-xl mb-2'>Fixed Account</h1>
                         <p className='mb-2 text[20px] font-light leading-[2rem]'>
                             Fixed Deposits provide a secure investment option with guaranteed returns. Lock in your money 
@@ -114,20 +160,35 @@ const OurAccounts = () => {
                                 your funds before the end of the term, though penalties may apply.
                             </li>
                         </ul>
-                    </div>
-                    <div className='w-full lg:ml-[35px]  mt-5 lg:mt-0'>
+                    </motion.div>
+                    <motion.div 
+                         variants={fadeIn('right')}
+                         initial='hidden'
+                         whileInView={'show'}
+                         viewport={{once: false, amount: 0.2}}
+                        className='w-full lg:ml-[35px]  mt-5 lg:mt-0'>
                     <img src={flexa} className='w-full h-full' alt="" />
-                    </div>
+                    </motion.div>
                     </div>
                 </div>
             </div>
             <div 
                 className='lg:flex items-center justify-between px-[20px] lg:w-[85%] mx-auto
                 bg-lightblues py-[40px] my-[25px] rounded-lg lg:px-[80px]'>
-                <h1 className='text-white text-center text-xl lg:text-2xl font-normal lg:w-[500px]'>
+                <motion.h1 
+                     variants={fadeIn('left')}
+                     initial='hidden'
+                     whileInView={'show'}
+                     viewport={{once: false, amount: 0.2}}
+                    className='text-white text-center text-xl lg:text-2xl font-normal lg:w-[500px]'>
                     Open an Account and Begin Your Investment Journey
-                </h1>
-                <div className='lg:flex items-center mt-5 lg:mt-0 mr-4 flex-wrap relative'>
+                </motion.h1>
+                <motion.div 
+                     variants={fadeIn('right')}
+                     initial='hidden'
+                     whileInView={'show'}
+                     viewport={{once: false, amount: 0.2}}
+                    className='lg:flex items-center mt-5 lg:mt-0 mr-4 flex-wrap relative'>
                     <input 
                         type="text" 
                         placeholder='Sign Up' 
@@ -137,7 +198,7 @@ const OurAccounts = () => {
                         rounded-lg px-5 absolute right-0'>
                         Sign Up For Free
                     </button>
-                </div>
+                </motion.div>
             </div>
         </div>
     </div>
