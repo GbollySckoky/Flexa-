@@ -45,11 +45,11 @@ const Header = () => {
             </ul>
           </nav>
           <div>
-            <Link className="px-9 py-[13px]" to={"/sign-in"}>
+            <Link className="px-9 py-[13px]" to={"#"}>
               Sign in
             </Link>
             <Link
-              to={"/create"}
+              to={"#"}
               className="px-9 bg-white text-dark py-[13px] rounded-lg"
             >
               Sign up
@@ -87,7 +87,7 @@ const Header = () => {
                 <Link to={"/faq"}>FAQ</Link>
               </li>
               <li className="py-4">
-                <Link to={"/sign-in"}>Sign in</Link>
+                <Link to={"#"}>Sign in</Link>
               </li>
             </ul>
           </nav>
