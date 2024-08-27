@@ -24,7 +24,7 @@ const Users = () => {
           <h1 className="mb-[25px] lg:text-3xl text-xl font-light lg:font-medium">
             See What Our Users Has To Say
           </h1>
-          <p className="lg:w-[890px] m-auto leading-[2rem] text-xl font-extralight">
+          <p className="lg:w-[890px] m-auto leading-[2rem] lg:text-xl font-extralight">
             Every month, we bring the spotlight to the heart of Flexa`s dynamic
             financial ecosystem, unveiling the comprehensive stories of
             individuals who have harnessed the full spectrum of Flexa`s
@@ -64,8 +64,8 @@ const Users = () => {
           {/* CARD 3 */}
           <div className="bg-lightblues text-white p-[40px]">
             <div className="flex ">
-            <Avatar src={lady2} alt="hello"/>
-            <h1 className="text-xl font-normal">Aamira Fareeda.M</h1>
+            <Avatar src={lady2} alt="hello" className="w-[50%]"/>
+            <h1 className="lg:text-xl lg:font-normal font-light w-[50%]">Aamira Fareeda.M</h1>
             </div>
             <p className="py-3 pt-[20px] text-[17px]  leading-[2rem] font-light">
             The flexible loans have been a game-changer for me. Being able to
@@ -78,7 +78,7 @@ const Users = () => {
           <div className="bg-lightblues text-white p-[40px]">
             <div className="flex items-center ">
             <Avatar src={gee} alt="hello"/>
-              <h1 className="text-xl font-medium">Oluwajuwon Abdullateef.O</h1>
+              <h1 className="lg:text-xl lg:font-medium">Oluwajuwon Abdullateef.O</h1>
             </div>
             <p className="py-3 pt-[20px] text-[17px] leading-[2rem] font-light ">
               Flexa has revolutionised the way i manage my finances. The
@@ -92,19 +92,18 @@ const Users = () => {
           <div className="bg-lightblues text-white p-[40px]">
             <div className="flex items-center ">
             <Avatar src={lady3} alt="hello"/>
-              <h1 className="text-xl font-medium ">Oluwakemi Omolara.A</h1>
+              <h1 className="lg:text-xl lg:font-medium ">Oluwakemi Omolara.A</h1>
             </div>
             <p className="pt-[20px] pb-3 text-[17px] leading-[2rem] font-light">
               Flexa has made my finance management a breeze
             </p>
             <p className="text-end font-light mt-[130px]">7.30am, 23rd March 2023</p>
           </div>
-
           {/* CARD 6 */}
           <div className="bg-lightblues text-white p-[40px]">
             <div className=" flex">
             <Avatar src={gee} alt="hello"/>
-              <h1 className="text-xl font-medium">Femi Oyedele.O</h1>
+              <h1 className="lg:text-xl lg:font-medium">Femi Oyedele.O</h1>
             </div>
             <p className="py-3 pt-[20px] text-[17px] leading-[2rem] font-light ">
               Flexa has revolutionised the way i manage my finances. The

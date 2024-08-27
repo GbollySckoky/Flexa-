@@ -20,7 +20,7 @@ const Hero = () => {
               </h1>
             </div>
             <div className="lg:w-[790px] w-[95%] mx-auto lg:mx-auto lg:text-xl text-sm lg:mb-[10px]">
-              <p className="font-light leading-[2.4rem]">
+              <p className="font-light ">
                 Empowering 4 Million+ Customers on a Journey to Financial Triumph:
                 Save Seamlessly, Invest Confidently, and Transact with Assurance.
               </p>

@@ -119,7 +119,7 @@ const Footer = () => {
             2022 - 2023 Flexa Global Limited - RC 1005223
           </p>
         </div>
-        <div className="flex items-end pt-[30px] lg:pt-0 ">
+        <div className="lg:flex hidden items-end pt-[30px] lg:pt-0 ">
           <img
             src={playStore}
             alt=""
