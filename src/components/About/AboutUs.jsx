@@ -45,11 +45,7 @@ const AboutUs = () => {
         </div>
         {/* RATE */}
         <div className='mt-[60px]'>
-            <motion.div
-                 variants={fadeIn('up')}
-                 initial='hidden'
-                 whileInView={'show'}
-                 viewport={{once: false, amount: 0.2}} 
+            <div
                 className='lg:flex items-center justify-evenly bg-white 
                 shadow-lg py-[30px] w-[85%] mx-auto rounded-lg space-y-7 lg:space-y-0 pl-[30px] lg:pl-0'>
                 <div className='flex items-center'>
@@ -88,15 +84,11 @@ const AboutUs = () => {
                         <p className='text-sm'>In process</p>
                     </div>
                 </div>
-            </motion.div>
+            </div>
         </div>
         {/* OUR MISSION */}
         <div className=' mt-[60px] bg-[#0B2960] text-white'>
-            <motion.div 
-                 variants={fadeIn('left')}
-                 initial='hidden'
-                 whileInView={'show'}
-                 viewport={{once: false, amount: 0.2}}
+            <div 
                 className='w-[85%] mx-auto  p-[20px]'>
                 <h1 className='text-3xl font-medium py-[20px]'>Our Mission</h1>
                 <p className='text-base lg:font-light font-extralight pb-3 leading-[2rem]'>Flexa's mission is simple: to offer small 
@@ -141,7 +133,7 @@ const AboutUs = () => {
                         and medium-sized business we serve.
                     </p>
                 </div>
-            </motion.div>
+            </div>
         </div>
         <Reviews />
         {/* <Sponsors /> */}
