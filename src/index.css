@@ -60,11 +60,14 @@
     background:linear-gradient(to rwhitet, rgba(255,255,255 ,0), #0B2960) ;
   }
    input{
-    border: 1px solid #3D6FFF;
+    border: 1px solid #d4d3d4;
+    border-radius: 10px;
   }
   select{
-    border: 1px solid #3D6FFF;
+    border: 1px solid #d4d3d4;
+    border-radius: 10px;
   }
   input:focus{
     outline: none;
+    border: 1px solid #0B2960;
   }
