@@ -8,17 +8,17 @@ const Service = () => {
     <div>
         <div className='pt-[80px] '>
             <div className='text-center bg-lightblues text-white mb-[40px]'>
-                <motion.div 
-                  variants={fadeIn('up')}
-                  initial='hidden'
-                  whileInView={'show'}
-                  viewport={{once: false, amount: 0.2}}
+                <div 
+                  // variants={fadeIn('up')}
+                  // initial='hidden'
+                  // whileInView={'show'}
+                  // viewport={{once: false, amount: 0.2}}
                 className='w-[85%] mx-auto py-[90px]'>
-                    <h1 className='lg:text-3xl  text-xl lg:font-medium lg:leading-[2.8rem]'>
+                    <h1 className='lg:text-3xl  text-xl lg:font-medium leading-[2rem] lg:leading-[2.8rem]'>
                         Explore Our Variety of Account <br /> Options to Meet All Your Financial Needs
                     </h1>
-                    <p className='lg:text-base text-sm font-light lg:leading-[2rem] 
-                        lg:w-[40%] mx-auto mt-[10px] lg:mt-[20px]'>
+                    <p className='lg:text-base text-sm font-light  leading-[1.8rem] lg:leading-[2rem] 
+                        lg:w-[40%] mx-auto mt-[15px] lg:mt-[20px]'>
                         Empower your business in the payment 
                         revolution with Flexa. Join over 200,000 merchants
                         shaping a secure, simple, and innovative financial future.
@@ -28,20 +28,21 @@ const Service = () => {
                         rounded-md text-lightBlue lg:font-semibold"> 
                         Get Started
                     </button>
-                </motion.div>            
+                </div>            
             </div>
-            <motion.div 
-              variants={fadeIn('up')}
-              initial='hidden'
-              whileInView={'show'}
-              viewport={{once: false, amount: 0.2}}>
+            <div 
+              // variants={fadeIn('up')}
+              // initial='hidden'
+              // whileInView={'show'}
+              // viewport={{once: false, amount: 0.2}}
+              >
                 <div className='text-center text-lightblues'>
                     <h1 className='lg:text-3xl text-xl font-medium'>Accounts</h1>
                     <p className='lg:text[25px] text-[15px] font-light pt-2'>Choose the right account for your needs.</p>
                 </div>
-            </motion.div>
+            </div>
             <OurAccounts />
-        </div>
+       </div> 
     </div>
   )
 }
