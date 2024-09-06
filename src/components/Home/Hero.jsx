@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <>
       {/* <Header /> */}
-      <div className="pt-[80px]">
+      <div className="pt-[80px] ">
         <section className="bg-lightblues text-center w-full text-white">
           <motion.div
            variants={fadeIn('up')}

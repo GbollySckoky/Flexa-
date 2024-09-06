@@ -7,8 +7,8 @@ import { fadeIn } from "../Variant";
 
 const Work = () => {
   return (
-    <>
-      <section className="bg-lightblues my-[80px] ">
+    <div className="w-full">
+      <section className="bg-lightblues w-full  my-[80px] ">
         <div id="container" className="py-[80px] ">
           <motion.div
               variants={fadeIn('left')}
@@ -62,7 +62,7 @@ const Work = () => {
         </div>
       </section>
       <Users />
-    </>
+    </div>
   );
 };
 

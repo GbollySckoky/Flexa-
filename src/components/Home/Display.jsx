@@ -7,18 +7,16 @@ import pixi from "../../assets/image 23.svg";
 const Display = () => {
 
   return (
-    <>
-    <section  className="media hidden lg:block bg-lightBlue">
-      <div id="container" className="box flex justify-between">
+    <div className="mt-[50px] mb-[20px] hidden lg:block ">
+    <div className="box flex justify-evenly ">
         <img src={master} alt="masterCard" />
         <img src={visa} alt="visa" />
         <img src={ibm} alt="ibm" />
         <img src={spotify} alt="spotify" />
         <img src={prime} alt="prime" />
         <img src={pixi} alt="pixi" />
-      </div>
-    </section>
-    </>
+    </div>
+    </div>
   );
 };
 
